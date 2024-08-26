@@ -2,10 +2,10 @@
 $black: #000000;
 $white: #ffffff;
 
-$classic-base-color: #53424b; /* $gray-900 */
-$classic-primary-color: #86717c; /* $gray-700 */
-$classic-secondary-color: #f5dce8; /* $gray-100 */
-$classic-highlight-color: #e093c2; /* $primary */
+$classic-base-color: #53424b; // $gray-900
+$classic-primary-color: #86717c; // $gray-700
+$classic-secondary-color: #f5dce8; // $gray-100
+$classic-highlight-color: #e093c2; // $primary
 
 // Differences
 $success-green: #769c56;
@@ -17,19 +17,19 @@ $base-overlay-background: $white !default;
 $valid-value-color: $success-green !default;
 
 $ui-base-color: $classic-secondary-color !default;
-$ui-base-lighter-color: #d8c0cb; /* $gray-300 */
-$ui-primary-color: #e093c2; /* $primary */
+$ui-base-lighter-color: #d8c0cb; // $gray-300
+$ui-primary-color: #e093c2; // $primary
 $ui-secondary-color: $classic-base-color !default;
-$ui-highlight-color: #565899; /* $info */
+$ui-highlight-color: #565899; // $info
 
 $primary-text-color: $black !default;
 $darker-text-color: $classic-base-color !default;
-$dark-text-color: #53424b; /* $gray-900 */
-$action-button-color: #86717c; /* $gray-700 */
+$dark-text-color: #53424b; // $gray-900
+$action-button-color: #86717c; // $gray-700
 
 $inverted-text-color: $black !default;
 $lighter-text-color: $classic-base-color !default;
-$light-text-color: #53424b; /* $gray-900 */
+$light-text-color: #53424b; // $gray-900
 
 //Newly added colors
 $account-background-color: $white !default;
