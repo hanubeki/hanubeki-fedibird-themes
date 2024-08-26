@@ -36,11 +36,17 @@ $account-background-color: $white !default;
 
 //Invert darkened and lightened colors
 @function darken($color, $amount) {
-  @return hsl(hue($color), saturation($color) + $amount, lightness($color) + $amount);
+  // @return hsl(hue($color), saturation($color) + $amount, lightness($color) + $amount);
+  // $room: 255 - max(red($color), green($color), blue($color));
+  $room: 255;
+  @return rgb(red($color) + $room * calc($amount / 100%), green($color) + $room * calc($amount / 100%), blue($color) + $room * calc($amount / 100%));
 }
 
 @function lighten($color, $amount) {
-  @return hsl(hue($color), saturation($color) + $amount, lightness($color) - $amount);
+  // @return hsl(hue($color), saturation($color) + $amount, lightness($color) - $amount);
+  // $room: min(red($color), green($color), blue($color));
+  $room: 255;
+  @return rgb(red($color) - $room * calc($amount / 100%), green($color) - $room * calc($amount / 100%), blue($color) - $room * calc($amount / 100%));
 }
 
 $emojis-requiring-inversion: 'chains';
