@@ -776,7 +776,7 @@ html {
   }
 }
 
-.icon-button {
+button.icon-button {
   &:disabled, &.disabled {
     color: darken($action-button-color, 20%);
 
