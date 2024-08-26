@@ -5,20 +5,20 @@ $white: #ffffff;
 $classic-base-color: #53424b; /* $gray-900 */
 $classic-primary-color: #86717c; /* $gray-700 */
 $classic-secondary-color: #f5dce8; /* $gray-100 */
-$classic-highlight-color: #a6618c; /* $primary */
+$classic-highlight-color: #e093c2; /* $primary */
 
 // Differences
-$success-green: lighten(#5d813e, 20%);
-$error-red: lighten(#a25259, 20%);
-$warning-red: lighten(#af633b, 20%);
-$gold-star: lighten(#bc8734, 20%);
+$success-green: #769c56;
+$error-red: #c16b71;
+$warning-red: #ce7c52;
+$gold-star: #d9a14c;
 
 $base-overlay-background: $white !default;
 $valid-value-color: $success-green !default;
 
 $ui-base-color: $classic-secondary-color !default;
 $ui-base-lighter-color: #d8c0cb; /* $gray-300 */
-$ui-primary-color: #a6618c; /* $primary */
+$ui-primary-color: #e093c2; /* $primary */
 $ui-secondary-color: $classic-base-color !default;
 $ui-highlight-color: #565899; /* $info */
 
