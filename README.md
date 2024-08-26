@@ -1,2 +1,2 @@
 # hanubeki-fedibird-themes
-An experiment
+Experimental themes for [fedibird](https://fedibird.com/)
