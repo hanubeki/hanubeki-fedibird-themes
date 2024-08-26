@@ -124,6 +124,12 @@ html {
   border-bottom: 1px solid lighten($ui-base-color, 8%);
 }
 
+.list-link .list-name,
+.list-link .list-favourite-button,
+.list-link .list-edit-button {
+  background: transparent;
+}
+
 .getting-started,
 .scrollable {
   .column-link,
@@ -131,7 +137,7 @@ html {
   .list-edit-button,
   .circle-edit-button,
   .circle-delete-button {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.8);
     border-bottom: 1px solid lighten($ui-base-color, 8%);
 
     &:hover,
