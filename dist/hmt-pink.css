@@ -14573,7 +14573,7 @@ html {
 .column-inline-form,
 .error-column,
 .regeneration-indicator {
-  background: rgba(255, 255, 255, 0.8);
+  background: #fffcfe;
   border: 1px solid rgb(225, 200, 212);
   border-top: 0;
 }
@@ -14584,7 +14584,7 @@ html {
 
 .filter-form,
 .directory__card__bar {
-  background: transparent;
+  background: #fffcfe;
   border-bottom: 1px solid rgb(225, 200, 212);
 }
 
@@ -14619,15 +14619,19 @@ html {
 .column-header__back-button,
 .column-header__button,
 .column-header__button.active,
-.account__header__bar,
-.directory__card__extra,
 .status-reactioned__back-to-post-button {
-  background: transparent;
+  background: rgb(255, 238, 250);
+}
+
+.account__header__bar,
+.directory__card__bar,
+.directory__card__extra {
+  background: #fffcfe;
 }
 
 .public-layout .directory__card,
 .columns-area--mobile .directory__card {
-  background: rgba(255, 255, 255, 0.8);
+  background: #fffcfe;
 }
 
 .column-header__button.active {
@@ -14671,12 +14675,6 @@ html {
   border-bottom: 1px solid rgb(225, 200, 212);
 }
 
-.list-link .list-name,
-.list-link .list-favourite-button,
-.list-link .list-edit-button {
-  background: transparent;
-}
-
 .getting-started .column-link,
 .getting-started .list-favourite-button,
 .getting-started .list-edit-button,
@@ -14687,7 +14685,7 @@ html {
 .scrollable .list-edit-button,
 .scrollable .circle-edit-button,
 .scrollable .circle-delete-button {
-  background: rgba(255, 255, 255, 0.8);
+  background: #fffcfe;
   border-bottom: 1px solid rgb(225, 200, 212);
 }
 .getting-started .column-link:hover, .getting-started .column-link:active, .getting-started .column-link:focus,
@@ -14808,7 +14806,7 @@ html {
 }
 
 .compose-form .compose-form__modifiers {
-  background: rgba(255, 255, 255, 0.8);
+  background-color: #fffcfe;
 }
 .compose-form .compose-form__modifiers .compose-form__upload__actions .icon-button {
   color: rgb(237, 237, 237);
@@ -14829,7 +14827,7 @@ html {
   background: rgb(255, 235, 247);
 }
 .compose-form .autosuggest-textarea__textarea {
-  background: rgba(255, 255, 255, 0.8);
+  background: #fffcfe;
 }
 .compose-form .autosuggest-textarea__suggestions {
   background: rgb(255, 235, 247);
@@ -14856,7 +14854,7 @@ html {
 
 .detailed-status,
 .detailed-status__action-bar {
-  background: transparent;
+  background: #fffcfe;
 }
 
 .reply-indicator__content .status__content__spoiler-link,
@@ -15114,7 +15112,7 @@ html {
 .contact-widget,
 .landing .hero-widget__text,
 .landing-page__information.contact-widget {
-  background: rgba(255, 255, 255, 0.8);
+  background: #fffcfe;
   border: 1px solid rgb(225, 200, 212);
 }
 @media screen and (max-width: 415px) {
@@ -15147,7 +15145,7 @@ html {
 }
 
 .landing .hero-widget__footer {
-  background: rgb(255, 238, 250);
+  background: #fffcfe;
   border: 1px solid rgb(225, 200, 212);
   border-top: 0;
 }
@@ -15158,7 +15156,7 @@ html {
 }
 
 .landing .hero-widget__text, .landing .hero-widget__footer {
-  background: rgba(255, 255, 255, 0.8);
+  background: #fffcfe;
 }
 
 .picture-in-picture-placeholder {
@@ -15227,7 +15225,7 @@ html {
   border-top: 0;
 }
 .activity-stream .entry {
-  background: rgba(255, 255, 255, 0.8);
+  background: #fffcfe;
 }
 .activity-stream .entry .detailed-status.light,
 .activity-stream .entry .more.light,
@@ -15301,7 +15299,7 @@ html {
 }
 
 .statuses-grid .detailed-status {
-  background: rgba(255, 255, 255, 0.8);
+  background: #fffcfe;
 }
 
 .status__content a,
@@ -15341,7 +15339,7 @@ button.icon-button:disabled i.fa-retweet, button.icon-button:disabled:hover i.fa
 }
 .public-layout .public-account-bio,
 .public-layout .hero-widget__text {
-  background: rgba(255, 255, 255, 0.8);
+  background: #fffcfe;
 }
 .public-layout .header {
   background: #f5dce8;
@@ -15396,7 +15394,7 @@ button.icon-button:disabled i.fa-retweet, button.icon-button:disabled:hover i.fa
 .notification__filter-bar button.active::after,
 .account__section-headline a.active::after,
 .status__section-headline a.active::after {
-  border-color: transparent transparent #ffffff;
+  border-color: transparent transparent #fffcfe;
 }
 
 .hero-widget,

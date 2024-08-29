@@ -31,7 +31,7 @@ html {
 .column-inline-form,
 .error-column,
 .regeneration-indicator {
-  background: rgba(255, 255, 255, 0.8);
+  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
   border: 1px solid lighten($ui-base-color, 8%);
   border-top: 0;
 }
@@ -42,7 +42,7 @@ html {
 
 .filter-form,
 .directory__card__bar {
-  background: transparent;
+  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
   border-bottom: 1px solid lighten($ui-base-color, 8%);
 }
 
@@ -75,15 +75,19 @@ html {
 .column-header__back-button,
 .column-header__button,
 .column-header__button.active,
-.account__header__bar,
-.directory__card__extra,
 .status-reactioned__back-to-post-button {
-  background: transparent;
+  background: darken($ui-base-color, 7%);
+}
+
+.account__header__bar,
+.directory__card__bar,
+.directory__card__extra {
+  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
 }
 
 .public-layout .directory__card,
 .columns-area--mobile .directory__card {
-  background: rgba(255, 255, 255, 0.8);
+  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
 }
 
 .column-header__button.active {
@@ -124,12 +128,6 @@ html {
   border-bottom: 1px solid lighten($ui-base-color, 8%);
 }
 
-.list-link .list-name,
-.list-link .list-favourite-button,
-.list-link .list-edit-button {
-  background: transparent;
-}
-
 .getting-started,
 .scrollable {
   .column-link,
@@ -137,7 +135,7 @@ html {
   .list-edit-button,
   .circle-edit-button,
   .circle-delete-button {
-    background: rgba(255, 255, 255, 0.8);
+    background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
     border-bottom: 1px solid lighten($ui-base-color, 8%);
 
     &:hover,
@@ -237,7 +235,7 @@ html {
 // Change the colors used in compose-form
 .compose-form {
   .compose-form__modifiers {
-    background: rgba(255, 255, 255, 0.8);
+    background-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
 
     .compose-form__upload__actions .icon-button {
       color: lighten($white, 7%);
@@ -263,7 +261,7 @@ html {
   }
 
   .autosuggest-textarea__textarea {
-    background: rgba(255, 255, 255, 0.8);
+    background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
   }
 
   .autosuggest-textarea__suggestions {
@@ -300,7 +298,7 @@ html {
 
 .detailed-status,
 .detailed-status__action-bar {
-  background: transparent;
+  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
 }
 
 // Change the background colors of status__content__spoiler-link
@@ -561,7 +559,7 @@ html {
 .contact-widget,
 .landing .hero-widget__text,
 .landing-page__information.contact-widget {
-  background: rgba(255, 255, 255, 0.8);
+  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
   border: 1px solid lighten($ui-base-color, 8%);
 
   @media screen and (max-width: $no-gap-breakpoint) {
@@ -589,7 +587,7 @@ html {
 }
 
 .landing .hero-widget__footer {
-  background: darken($ui-base-color, 7%);
+  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
   border: 1px solid lighten($ui-base-color, 8%);
   border-top: 0;
 
@@ -600,7 +598,7 @@ html {
 
 .landing .hero-widget {
   &__text, &__footer {
-    background: rgba(255, 255, 255, 0.8);
+    background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
   }
 }
 
@@ -677,7 +675,7 @@ html {
   }
 
   .entry {
-    background: rgba(255, 255, 255, 0.8);
+    background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
 
     .detailed-status.light,
     .more.light,
@@ -773,7 +771,7 @@ html {
 }
 
 .statuses-grid .detailed-status {
-  background: rgba(255, 255, 255, 0.8);
+  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
 }
 
 .status__content,
@@ -821,7 +819,7 @@ button.icon-button {
 
   .public-account-bio,
   .hero-widget__text {
-    background: rgba(255, 255, 255, 0.8);
+    background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
   }
 
   .header {
@@ -896,7 +894,7 @@ button.icon-button {
 .notification__filter-bar button.active::after,
 .account__section-headline a.active::after,
 .status__section-headline a.active::after {
-  border-color: transparent transparent $white;
+  border-color: transparent transparent mix(darken($ui-base-color, 7%), #ffffff, 20%);
 }
 
 .hero-widget,
