@@ -42,7 +42,7 @@ html {
 
 .filter-form,
 .directory__card__bar {
-  background: darken($ui-base-color, 7%);
+  background: transparent;
   border-bottom: 1px solid lighten($ui-base-color, 8%);
 }
 
@@ -78,12 +78,12 @@ html {
 .account__header__bar,
 .directory__card__extra,
 .status-reactioned__back-to-post-button {
-  background: darken($ui-base-color, 7%);
+  background: transparent;
 }
 
 .public-layout .directory__card,
 .columns-area--mobile .directory__card {
-  background: darken($ui-base-color, 7%);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .column-header__button.active {
@@ -561,7 +561,7 @@ html {
 .contact-widget,
 .landing .hero-widget__text,
 .landing-page__information.contact-widget {
-  background: darken($ui-base-color, 7%);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid lighten($ui-base-color, 8%);
 
   @media screen and (max-width: $no-gap-breakpoint) {
@@ -595,6 +595,12 @@ html {
 
   @media screen and (max-width: $no-gap-breakpoint) {
     border: 0;
+  }
+}
+
+.landing .hero-widget {
+  &__text, &__footer {
+    background: rgba(255, 255, 255, 0.8);
   }
 }
 
@@ -671,7 +677,7 @@ html {
   }
 
   .entry {
-    background: $account-background-color;
+    background: rgba(255, 255, 255, 0.8);
 
     .detailed-status.light,
     .more.light,
@@ -766,6 +772,10 @@ html {
   }
 }
 
+.statuses-grid .detailed-status {
+  background: rgba(255, 255, 255, 0.8);
+}
+
 .status__content,
 .reply-indicator__content,
 .scheduled-status-warning-indicator__content {
@@ -811,7 +821,7 @@ button.icon-button {
 
   .public-account-bio,
   .hero-widget__text {
-    background: $account-background-color;
+    background: rgba(255, 255, 255, 0.8);
   }
 
   .header {

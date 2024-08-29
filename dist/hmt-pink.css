@@ -14584,7 +14584,7 @@ html {
 
 .filter-form,
 .directory__card__bar {
-  background: rgb(255, 238, 250);
+  background: transparent;
   border-bottom: 1px solid rgb(225, 200, 212);
 }
 
@@ -14622,12 +14622,12 @@ html {
 .account__header__bar,
 .directory__card__extra,
 .status-reactioned__back-to-post-button {
-  background: rgb(255, 238, 250);
+  background: transparent;
 }
 
 .public-layout .directory__card,
 .columns-area--mobile .directory__card {
-  background: rgb(255, 238, 250);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .column-header__button.active {
@@ -15114,7 +15114,7 @@ html {
 .contact-widget,
 .landing .hero-widget__text,
 .landing-page__information.contact-widget {
-  background: rgb(255, 238, 250);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgb(225, 200, 212);
 }
 @media screen and (max-width: 415px) {
@@ -15155,6 +15155,10 @@ html {
   .landing .hero-widget__footer {
     border: 0;
   }
+}
+
+.landing .hero-widget__text, .landing .hero-widget__footer {
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .picture-in-picture-placeholder {
@@ -15223,7 +15227,7 @@ html {
   border-top: 0;
 }
 .activity-stream .entry {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.8);
 }
 .activity-stream .entry .detailed-status.light,
 .activity-stream .entry .more.light,
@@ -15296,6 +15300,10 @@ html {
   color: #565899;
 }
 
+.statuses-grid .detailed-status {
+  background: rgba(255, 255, 255, 0.8);
+}
+
 .status__content a,
 .reply-indicator__content a,
 .scheduled-status-warning-indicator__content a {
@@ -15333,7 +15341,7 @@ button.icon-button:disabled i.fa-retweet, button.icon-button:disabled:hover i.fa
 }
 .public-layout .public-account-bio,
 .public-layout .hero-widget__text {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.8);
 }
 .public-layout .header {
   background: #f5dce8;
