@@ -2,10 +2,10 @@
 Experimental themes for [fedibird](https://fedibird.com/)
 
 ## Compiled CSS
-See [/dist](/dist) directory for compiled CSS.
+See [/dist](/dist) directory for compiled CSS files.
 
 ## Sources
-See [/src](/src) directory if you are interested to install theese themes.
+See [/src](/src) directory if you are interested to install theee themes.
 Note that these themes is for Fedibird, based on ancient Mastodon v3.4.1.
 
 ## Preview
