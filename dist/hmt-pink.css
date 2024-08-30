@@ -14880,7 +14880,7 @@ html {
 }
 
 .dropdown-menu {
-  background: rgb(255, 238, 250);
+  background: #fffcfe;
 }
 .dropdown-menu__arrow.left {
   border-left-color: #ffffff;

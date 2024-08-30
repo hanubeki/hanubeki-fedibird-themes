@@ -327,7 +327,7 @@ html {
 
 // Change the colors used in the dropdown menu
 .dropdown-menu {
-  background: darken($ui-base-color, 7%);
+  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
 
   &__arrow {
     &.left {
