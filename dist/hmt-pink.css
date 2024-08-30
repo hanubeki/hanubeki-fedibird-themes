@@ -14913,6 +14913,22 @@ html {
   color: #53424b;
 }
 
+.account-popup.dropdown-menu {
+  background: #fffcfe;
+}
+.account-popup__arrow.dropdown-menu__arrow.left {
+  border-left-color: #fffcfe;
+}
+.account-popup__arrow.dropdown-menu__arrow.top {
+  border-top-color: #fffcfe;
+}
+.account-popup__arrow.dropdown-menu__arrow.bottom {
+  border-bottom-color: #fffcfe;
+}
+.account-popup__arrow.dropdown-menu__arrow.right {
+  border-right-color: #fffcfe;
+}
+
 .privacy-dropdown__option.active,
 .privacy-dropdown__option:hover,
 .privacy-dropdown__option.active .privacy-dropdown__option__content,

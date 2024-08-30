@@ -369,6 +369,31 @@ html {
   }
 }
 
+// Change the colors used in the account popup
+.account-popup {
+  &.dropdown-menu {
+    background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  }
+
+  &__arrow.dropdown-menu__arrow {
+    &.left {
+      border-left-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+    }
+  
+    &.top {
+      border-top-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+    }
+  
+    &.bottom {
+      border-bottom-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+    }
+  
+    &.right {
+      border-right-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+    }
+  }
+}
+
 // Change the text colors on inverted background
 .privacy-dropdown__option.active,
 .privacy-dropdown__option:hover,
