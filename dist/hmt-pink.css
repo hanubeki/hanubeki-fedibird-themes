@@ -14836,6 +14836,11 @@ html {
   background: rgb(235, 210, 222);
 }
 
+.emoji-picker-dropdown__menu,
+.dropdown-menu.dropdown-menu-reaction {
+  background: #fffcfe;
+}
+
 .emoji-mart-bar {
   border-color: rgb(235, 210, 222);
 }
@@ -14843,9 +14848,18 @@ html {
   background: rgb(255, 235, 247);
 }
 
+.emoji-mart-search,
+.emoji-mart-scroll {
+  background: #fffcfe;
+}
+
 .emoji-mart-search input {
   background: rgba(245, 220, 232, 0.3);
   border-color: #f5dce8;
+}
+
+.emoji-mart-category-label span {
+  background: #fffcfe;
 }
 
 .focusable:focus {
@@ -14883,16 +14897,16 @@ html {
   background: #fffcfe;
 }
 .dropdown-menu__arrow.left {
-  border-left-color: #ffffff;
+  border-left-color: #fffcfe;
 }
 .dropdown-menu__arrow.top {
-  border-top-color: #ffffff;
+  border-top-color: #fffcfe;
 }
 .dropdown-menu__arrow.bottom {
-  border-bottom-color: #ffffff;
+  border-bottom-color: #fffcfe;
 }
 .dropdown-menu__arrow.right {
-  border-right-color: #ffffff;
+  border-right-color: #fffcfe;
 }
 .dropdown-menu__item a {
   background: #fffcfe;

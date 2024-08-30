@@ -278,6 +278,11 @@ html {
   }
 }
 
+.emoji-picker-dropdown__menu,
+.dropdown-menu.dropdown-menu-reaction {
+  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+}
+
 .emoji-mart-bar {
   border-color: lighten($ui-base-color, 4%);
 
@@ -286,9 +291,18 @@ html {
   }
 }
 
+.emoji-mart-search,
+.emoji-mart-scroll {
+  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+}
+
 .emoji-mart-search input {
   background: rgba($ui-base-color, 0.3);
   border-color: $ui-base-color;
+}
+
+.emoji-mart-category-label span {
+  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
 }
 
 // Change the background colors of statuses
@@ -331,19 +345,19 @@ html {
 
   &__arrow {
     &.left {
-      border-left-color: $white;
+      border-left-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
     }
 
     &.top {
-      border-top-color: $white;
+      border-top-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
     }
 
     &.bottom {
-      border-bottom-color: $white;
+      border-bottom-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
     }
 
     &.right {
-      border-right-color: $white;
+      border-right-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
     }
   }
 
