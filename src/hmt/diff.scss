@@ -318,7 +318,7 @@ html {
 }
 
 .privacy-dropdown.active .privacy-dropdown__value.active .icon-button {
-  color: darken($ui-base-color, 7%);
+  color: $white;
 }
 
 .account-gallery__item a {
@@ -349,7 +349,7 @@ html {
 
   &__item {
     a {
-      background: darken($ui-base-color, 7%);
+      background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
       color: $darker-text-color;
     }
   }

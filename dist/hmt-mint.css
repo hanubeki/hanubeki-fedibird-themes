@@ -14872,7 +14872,7 @@ html {
 }
 
 .privacy-dropdown.active .privacy-dropdown__value.active .icon-button {
-  color: rgb(229, 248, 247);
+  color: #ffffff;
 }
 
 .account-gallery__item a {
@@ -14895,7 +14895,7 @@ html {
   border-right-color: #ffffff;
 }
 .dropdown-menu__item a {
-  background: rgb(229, 248, 247);
+  background: #fafefd;
   color: #394a49;
 }
 
