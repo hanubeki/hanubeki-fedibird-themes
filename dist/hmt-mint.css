@@ -14943,7 +14943,7 @@ html {
 .picture-in-picture__header,
 .picture-in-picture__footer,
 .reactions-bar__item {
-  background: rgb(229, 248, 247);
+  background: #fafefd;
   border: 1px solid rgb(191, 210, 209);
 }
 
@@ -15045,16 +15045,16 @@ html {
 }
 
 .display-case__case {
-  background: rgb(229, 248, 247);
+  background: #fafefd;
 }
 
 .embed-modal .embed-modal__container .embed-modal__html {
-  background: rgb(229, 248, 247);
+  background: #fafefd;
   border: 1px solid rgb(191, 210, 209);
 }
 .embed-modal .embed-modal__container .embed-modal__html:focus {
   border-color: rgb(180, 199, 198);
-  background: rgb(229, 248, 247);
+  background: #fafefd;
 }
 
 .react-toggle-track {
@@ -15072,7 +15072,7 @@ html {
 .empty-column-indicator,
 .error-column {
   color: #000000;
-  background: rgb(229, 248, 247);
+  background: #fafefd;
 }
 
 .tabs-bar {
