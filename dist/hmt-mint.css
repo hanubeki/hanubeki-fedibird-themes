@@ -14955,9 +14955,13 @@ html {
 .report-modal__comment .setting-text,
 .announcements,
 .picture-in-picture__header,
-.picture-in-picture__footer,
-.reactions-bar__item {
+.picture-in-picture__footer {
   background: #fafefd;
+  border: 1px solid rgb(191, 210, 209);
+}
+
+.reactions-bar__item {
+  background: rgb(229, 248, 247);
   border: 1px solid rgb(191, 210, 209);
 }
 
