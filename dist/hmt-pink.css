@@ -14915,7 +14915,6 @@ html {
 
 .account-popup.dropdown-menu {
   background: #fffcfd;
-  color: #53424b;
 }
 .account-popup__arrow.dropdown-menu__arrow.left {
   border-left-color: #fffcfd;
@@ -14928,6 +14927,9 @@ html {
 }
 .account-popup__arrow.dropdown-menu__arrow.right {
   border-right-color: #fffcfd;
+}
+.account-popup__display-name__html {
+  color: #53424b;
 }
 
 .privacy-dropdown__option.active,
