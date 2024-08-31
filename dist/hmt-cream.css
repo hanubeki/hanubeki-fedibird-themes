@@ -15012,6 +15012,7 @@ html {
 
 .icon-with-badge__badge,
 .status__thread_mark {
+  color: #ffffff;
   border-color: #ffffff;
 }
 
