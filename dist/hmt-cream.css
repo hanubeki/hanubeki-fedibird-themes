@@ -142,7 +142,7 @@ body {
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
-  color: #000000;
+  color: #3b2e1d;
   text-rendering: optimizelegibility;
   font-feature-settings: "kern";
   -webkit-text-size-adjust: none;
@@ -309,19 +309,19 @@ button:focus {
 }
 .error-boundary__footer,
 .app-holder noscript__footer {
-  color: #534432;
+  color: #6b5c48;
   font-size: 13px;
 }
 .error-boundary__footer a,
 .app-holder noscript__footer a {
-  color: #534432;
+  color: #6b5c48;
 }
 .error-boundary button,
 .app-holder noscript button {
   display: inline;
   border: 0;
   background: transparent;
-  color: #534432;
+  color: #6b5c48;
   font: inherit;
   padding: 0;
   margin: 0;
@@ -379,7 +379,7 @@ article .__ns__pop2top {
   align-items: center;
 }
 .logo-container h1 svg {
-  fill: #000000;
+  fill: #3b2e1d;
   height: 42px;
   margin-right: 10px;
 }
@@ -387,7 +387,7 @@ article .__ns__pop2top {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000000;
+  color: #3b2e1d;
   text-decoration: none;
   outline: 0;
   padding: 12px 16px;
@@ -655,7 +655,7 @@ article .__ns__pop2top {
   width: auto;
   position: relative;
   bottom: -2px;
-  fill: #000000;
+  fill: #3b2e1d;
 }
 @media screen and (max-width: 415px) {
   .public-layout .header .brand svg {
@@ -678,7 +678,7 @@ article .__ns__pop2top {
 }
 .public-layout .header .nav-link:hover, .public-layout .header .nav-link:focus, .public-layout .header .nav-link:active {
   text-decoration: underline;
-  color: #000000;
+  color: #3b2e1d;
 }
 @media screen and (max-width: 550px) {
   .public-layout .header .nav-link.optional {
@@ -887,7 +887,7 @@ article .__ns__pop2top {
 .public-layout .public-account-header__tabs__name h1 {
   font-size: 20px;
   line-height: 27px;
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 500;
   overflow: hidden;
   white-space: nowrap;
@@ -897,7 +897,7 @@ article .__ns__pop2top {
 .public-layout .public-account-header__tabs__name h1 small {
   display: block;
   font-size: 14px;
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 400;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -989,7 +989,7 @@ article .__ns__pop2top {
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 5px;
-  color: #000000;
+  color: #3b2e1d;
   font-family: "mastodon-font-display", sans-serif;
 }
 .public-layout .public-account-header__tabs__tabs .spacer {
@@ -1029,7 +1029,7 @@ article .__ns__pop2top {
 }
 .public-layout .public-account-header__extra__links a strong {
   font-weight: 700;
-  color: #000000;
+  color: #3b2e1d;
 }
 @media screen and (max-width: 600px) {
   .public-layout .public-account-header__extra {
@@ -1080,7 +1080,7 @@ article .__ns__pop2top {
 .public-layout .public-account-bio .account__header__content {
   padding: 20px;
   padding-bottom: 0;
-  color: #000000;
+  color: #3b2e1d;
 }
 .public-layout .public-account-bio__extra,
 .public-layout .public-account-bio .roles {
@@ -1423,7 +1423,7 @@ article .__ns__pop2top {
 .placeholder-widget {
   padding: 16px;
   border-radius: 4px;
-  border: 2px dashed #534432;
+  border: 2px dashed #6b5c48;
   text-align: center;
   color: #534432;
   margin-bottom: 10px;
@@ -1552,7 +1552,7 @@ article .__ns__pop2top {
   margin: 10px 0;
 }
 .page-header h1 {
-  color: #000000;
+  color: #3b2e1d;
   font-size: 36px;
   line-height: 1.1;
   font-weight: 700;
@@ -1607,7 +1607,7 @@ article .__ns__pop2top {
   flex: 1 1 auto;
   font-size: 18px;
   font-weight: 700;
-  color: #000000;
+  color: #3b2e1d;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1626,7 +1626,7 @@ article .__ns__pop2top {
 .directory__tag.active h4 .fa,
 .directory__tag.active h4 small,
 .directory__tag.active h4 .trends__item__current {
-  color: #000000;
+  color: #3b2e1d;
 }
 .directory__tag .avatar-stack {
   flex: 0 0 auto;
@@ -1693,7 +1693,7 @@ article .__ns__pop2top {
   text-align: center;
   font-size: 15px;
   font-weight: 500;
-  color: #000000;
+  color: #3b2e1d;
 }
 .accounts-table__count small {
   display: block;
@@ -1838,7 +1838,7 @@ article .__ns__pop2top {
   overflow: hidden;
   text-overflow: ellipsis;
   text-decoration: none;
-  color: #000000;
+  color: #3b2e1d;
   border-bottom: 1px solid rgb(235, 213, 188);
 }
 .table-of-contents li a:hover, .table-of-contents li a:focus, .table-of-contents li a:active {
@@ -1870,7 +1870,7 @@ code {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  color: #000000;
+  color: #3b2e1d;
 }
 .indicator-icon.success {
   background: #769c56;
@@ -1912,7 +1912,7 @@ code {
   font-family: inherit;
   font-size: 14px;
   padding-top: 5px;
-  color: #000000;
+  color: #3b2e1d;
   display: block;
   width: auto;
 }
@@ -2023,7 +2023,7 @@ code {
 .simple_form .input.with_floating_label .label_input > label {
   font-family: inherit;
   font-size: 14px;
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 500;
   min-width: 150px;
   flex: 0 0 auto;
@@ -2039,7 +2039,7 @@ code {
 .simple_form .input.with_label .label_input > label {
   font-family: inherit;
   font-size: 14px;
-  color: #000000;
+  color: #3b2e1d;
   display: block;
   margin-bottom: 8px;
   word-wrap: break-word;
@@ -2057,7 +2057,7 @@ code {
 .simple_form .input.with_block_label > label {
   font-family: inherit;
   font-size: 16px;
-  color: #000000;
+  color: #3b2e1d;
   display: block;
   font-weight: 500;
   padding-top: 5px;
@@ -2145,14 +2145,14 @@ code {
   margin-bottom: 5px;
   font-family: inherit;
   font-size: 14px;
-  color: #000000;
+  color: #3b2e1d;
   display: block;
   width: auto;
 }
 .simple_form .check_boxes .checkbox label {
   font-family: inherit;
   font-size: 14px;
-  color: #000000;
+  color: #3b2e1d;
   display: inline-block;
   width: auto;
   position: relative;
@@ -2169,7 +2169,7 @@ code {
 .simple_form .input.static .label_input__wrapper {
   font-size: 16px;
   padding: 10px;
-  border: 1px solid #534432;
+  border: 1px solid #6b5c48;
   border-radius: 4px;
 }
 .simple_form input[type=text],
@@ -2180,7 +2180,7 @@ code {
 .simple_form textarea {
   box-sizing: border-box;
   font-size: 16px;
-  color: #000000;
+  color: #3b2e1d;
   display: block;
   width: 100%;
   outline: 0;
@@ -2288,7 +2288,7 @@ code {
   border: 0;
   border-radius: 4px;
   background: #3c6da2;
-  color: #000000;
+  color: #3b2e1d;
   font-size: 18px;
   line-height: inherit;
   height: auto;
@@ -2348,7 +2348,7 @@ code {
           appearance: none;
   box-sizing: border-box;
   font-size: 16px;
-  color: #000000;
+  color: #3b2e1d;
   display: block;
   width: 100%;
   outline: 0;
@@ -2374,7 +2374,7 @@ code {
   padding: 10px;
   padding-bottom: 9px;
   font-size: 16px;
-  color: #534432;
+  color: #6b5c48;
   font-family: inherit;
   pointer-events: none;
   cursor: default;
@@ -2418,7 +2418,7 @@ code {
 }
 .simple_form__overlay-area__overlay__content.rich-formatting,
 .simple_form__overlay-area__overlay__content.rich-formatting p {
-  color: #000000;
+  color: #3b2e1d;
 }
 
 .block-icon {
@@ -2460,7 +2460,7 @@ code {
   text-decoration: none;
 }
 .flash-message a:hover {
-  color: #000000;
+  color: #3b2e1d;
   text-decoration: underline;
 }
 .flash-message.warning a {
@@ -2484,7 +2484,7 @@ code {
   padding: 10px;
   font-family: "mastodon-font-monospace", monospace;
   background: #f5dfc6;
-  color: #000000;
+  color: #3b2e1d;
   font-size: 14px;
   margin: 0;
 }
@@ -2676,7 +2676,7 @@ code {
 .table-form .warning {
   box-sizing: border-box;
   background: rgba(193, 107, 113, 0.5);
-  color: #000000;
+  color: #3b2e1d;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
   border-radius: 4px;
@@ -2685,7 +2685,7 @@ code {
 }
 .simple_form .warning a,
 .table-form .warning a {
-  color: #000000;
+  color: #3b2e1d;
   text-decoration: underline;
 }
 .simple_form .warning a:hover, .simple_form .warning a:focus, .simple_form .warning a:active,
@@ -2754,7 +2754,7 @@ code {
 }
 .alternative-login h4 {
   font-size: 16px;
-  color: #000000;
+  color: #3b2e1d;
   text-align: center;
   margin-bottom: 20px;
   border: 0;
@@ -2955,7 +2955,7 @@ code {
 }
 .card__bar .display-name strong {
   font-size: 15px;
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 500;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2981,7 +2981,7 @@ code {
 .pagination .page,
 .pagination .gap {
   font-size: 14px;
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 500;
   display: inline-block;
   padding: 6px 10px;
@@ -2990,7 +2990,7 @@ code {
 .pagination .current {
   background: #ffffff;
   border-radius: 100px;
-  color: #000000;
+  color: #3b2e1d;
   cursor: default;
   margin: 0 10px;
 }
@@ -3020,7 +3020,7 @@ code {
 }
 .pagination .disabled {
   cursor: default;
-  color: rgb(0, 0, 0);
+  color: rgb(34, 21, 4);
 }
 @media screen and (max-width: 700px) {
   .pagination {
@@ -3038,7 +3038,7 @@ code {
 .nothing-here {
   background: #f5dfc6;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  color: #534432;
+  color: #6b5c48;
   font-size: 14px;
   font-weight: 500;
   text-align: center;
@@ -3208,7 +3208,7 @@ code {
   text-decoration: underline;
 }
 .pending-account__header strong {
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 700;
 }
 .pending-account__body {
@@ -3305,7 +3305,7 @@ code {
   flex: 0 auto;
   font-size: 14px;
   background: #3c6da2;
-  color: #000000;
+  color: #3b2e1d;
   text-transform: none;
   line-height: 1.2;
   height: auto;
@@ -3323,7 +3323,7 @@ code {
   height: auto;
   vertical-align: middle;
   margin-right: 5px;
-  fill: #000000;
+  fill: #3b2e1d;
 }
 .button.logo-button:active, .button.logo-button:focus, .button.logo-button:hover {
   background: rgb(35, 84, 137);
@@ -3475,7 +3475,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   border: 10px none;
   border-radius: 4px;
   box-sizing: border-box;
-  color: #000000;
+  color: #3b2e1d;
   cursor: pointer;
   display: inline-block;
   font-family: inherit;
@@ -3531,7 +3531,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   padding: 4px 16px;
 }
 .button.button-alternative {
-  color: #000000;
+  color: #3b2e1d;
   background: #ed9669;
 }
 .button.button-alternative:active, .button.button-alternative:focus, .button.button-alternative:hover {
@@ -3643,7 +3643,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
 .icon-button.overlayed {
   box-sizing: content-box;
   background: rgba(255, 255, 255, 0.6);
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(59, 46, 29, 0.7);
   border-radius: 4px;
   padding: 2px;
 }
@@ -3759,7 +3759,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   background: #3c6da2;
 }
 .compose-form .compose-form__warning {
-  color: #000000;
+  color: #3b2e1d;
   margin-bottom: 10px;
   background: #ed9669;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
@@ -3769,7 +3769,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   font-weight: 400;
 }
 .compose-form .compose-form__warning strong {
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 500;
 }
 .compose-form .compose-form__warning strong:lang(ja) {
@@ -3825,7 +3825,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   box-sizing: border-box;
   width: 100%;
   margin: 0;
-  color: #000000;
+  color: #3b2e1d;
   background: #ffffff;
   padding: 10px;
   font-family: inherit;
@@ -3835,11 +3835,11 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   outline: 0;
 }
 .compose-form .autosuggest-textarea__textarea::-moz-placeholder, .compose-form .spoiler-input__input::-moz-placeholder {
-  color: #534432;
+  color: #6b5c48;
 }
 .compose-form .autosuggest-textarea__textarea::placeholder,
 .compose-form .spoiler-input__input::placeholder {
-  color: #534432;
+  color: #6b5c48;
 }
 .compose-form .autosuggest-textarea__textarea:focus,
 .compose-form .spoiler-input__input:focus {
@@ -3885,7 +3885,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
   background: #534432;
   border-radius: 0 0 4px 4px;
-  color: #000000;
+  color: #3b2e1d;
   font-size: 14px;
   padding: 6px;
 }
@@ -3940,7 +3940,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   color: #534432;
 }
 .compose-form .compose-form__modifiers {
-  color: #000000;
+  color: #3b2e1d;
   font-family: inherit;
   font-size: 14px;
   background: #ffffff;
@@ -4108,7 +4108,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
 }
 
 .scheduled-status-warning-indicator {
-  color: #000000;
+  color: #3b2e1d;
   background: #ed9669;
 }
 
@@ -4144,7 +4144,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
 
 .reply-indicator__display-name,
 .quote-indicator__display-name {
-  color: #000000;
+  color: #3b2e1d;
   display: block;
   max-width: 100%;
   line-height: 24px;
@@ -4178,7 +4178,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   overflow: hidden;
   text-overflow: ellipsis;
   padding-top: 2px;
-  color: #000000;
+  color: #3b2e1d;
 }
 .status__content:focus,
 .reply-indicator__content:focus,
@@ -4259,7 +4259,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
 .status__content a:hover .fa,
 .reply-indicator__content a:hover .fa,
 .quote-indicator__content a:hover .fa {
-  color: rgb(65, 50, 32);
+  color: rgb(89, 74, 54);
 }
 .status__content a.mention:hover,
 .reply-indicator__content a.mention:hover,
@@ -4274,7 +4274,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
 .status__content a .fa,
 .reply-indicator__content a .fa,
 .quote-indicator__content a .fa {
-  color: #534432;
+  color: #6b5c48;
 }
 .status__content a.unhandled-link,
 .reply-indicator__content a.unhandled-link,
@@ -4379,7 +4379,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   border-radius: 2px;
   background: transparent;
   border: 0;
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 700;
   font-size: 11px;
   padding: 0 6px;
@@ -4390,7 +4390,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
 }
 
 .status__wrapper--filtered {
-  color: #534432;
+  color: #6b5c48;
   border: 0;
   font-size: inherit;
   text-align: center;
@@ -4415,11 +4415,11 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   position: relative;
 }
 .quote-status > .unlisted-quote {
-  color: #534432;
+  color: #6b5c48;
   font-weight: 500;
 }
 .quote-status > .unlisted-quote > button {
-  color: #534432;
+  color: #6b5c48;
   font-size: 100%;
   background-color: transparent;
   border: 0;
@@ -4431,7 +4431,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
           appearance: none;
 }
 .quote-status > .muted-quote {
-  color: #534432;
+  color: #6b5c48;
   font-weight: 500;
   font-size: 100%;
 }
@@ -4510,28 +4510,28 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
 }
 .status.light .status__relative-time,
 .status.light .status__visibility-icon {
-  color: #534432;
+  color: #6b5c48;
 }
 .status.light .status__expiration-time {
-  color: #534432;
+  color: #6b5c48;
 }
 .status.light .status__display-name {
-  color: #000000;
+  color: #3b2e1d;
 }
 .status.light .display-name {
-  color: #534432;
+  color: #6b5c48;
 }
 .status.light .display-name strong {
-  color: #000000;
+  color: #3b2e1d;
 }
 .status.light .status__content {
-  color: #000000;
+  color: #3b2e1d;
 }
 .status.light .status__content a {
   color: #3c6da2;
 }
 .status.light .status__content a.status__content__spoiler-link {
-  color: #000000;
+  color: #3b2e1d;
   background: #ed9669;
 }
 .status.light .status__content a.status__content__spoiler-link:hover {
@@ -4543,7 +4543,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
 .status__thread_mark,
 .status__expiration-time,
 .notification__relative_time {
-  color: #534432;
+  color: #6b5c48;
   float: right;
   font-size: calc(var(--info-font-size, 15px) * 0.933);
   padding-bottom: 1px;
@@ -4567,7 +4567,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
 }
 
 .status__display-name {
-  color: #534432;
+  color: #6b5c48;
 }
 
 .status__thread_mark {
@@ -4578,7 +4578,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   font-size: 8px;
   font-weight: 500;
   line-height: 14px;
-  color: #000000;
+  color: #3b2e1d;
   margin-inline-start: 2px;
 }
 .status__thread_mark.status__thread_mark-both, .status__thread_mark.status__thread_mark-ancenstor.status__thread_mark-descendant {
@@ -4633,14 +4633,14 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
 
 .status__prepend {
   margin-left: 68px;
-  color: #534432;
+  color: #6b5c48;
   padding: 8px 0;
   padding-bottom: 2px;
   font-size: calc(var(--content-font-size, 15px) * 0.933);
   position: relative;
 }
 .status__prepend .status__display-name strong {
-  color: #534432;
+  color: #6b5c48;
 }
 .status__prepend > span {
   overflow: hidden;
@@ -4760,7 +4760,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
 
 .detailed-status__meta {
   margin-top: 15px;
-  color: #534432;
+  color: #6b5c48;
   font-size: 14px;
   line-height: 18px;
 }
@@ -4801,7 +4801,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
 .reply-indicator__content,
 .quote-indicator__content,
 .scheduled-status-warning-indicator__content {
-  color: #000000;
+  color: #3b2e1d;
   font-size: 14px;
 }
 .reply-indicator__content a,
@@ -4817,7 +4817,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
 .domain .domain__domain-name {
   flex: 1 1 auto;
   display: block;
-  color: #000000;
+  color: #3b2e1d;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -4953,7 +4953,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #000000;
+  color: #3b2e1d;
   text-shadow: 1px 1px 2px #000000;
   font-weight: 700;
   font-size: 15px;
@@ -5021,7 +5021,7 @@ a .account__avatar {
 .account__disclaimer {
   padding: 10px;
   border-top: 1px solid rgb(225, 203, 178);
-  color: #534432;
+  color: #6b5c48;
 }
 .account__disclaimer strong {
   font-weight: 500;
@@ -5075,7 +5075,7 @@ a .account__avatar {
 
 .status__display-name strong,
 .account__display-name strong {
-  color: #000000;
+  color: #3b2e1d;
 }
 
 .muted .emojione {
@@ -5119,7 +5119,7 @@ a.account__display-name:hover strong {
 }
 .detailed-status__display-name strong {
   font-size: 16px;
-  color: #000000;
+  color: #3b2e1d;
 }
 
 .detailed-status__display-avatar {
@@ -5161,17 +5161,17 @@ a.account__display-name:hover strong {
 .muted .status__content,
 .muted .status__content p,
 .muted .status__content a {
-  color: #534432;
+  color: #6b5c48;
 }
 .muted .status__display-name strong {
-  color: #534432;
+  color: #6b5c48;
 }
 .muted .status__avatar {
   opacity: 0.5;
 }
 .muted a.status__content__spoiler-link {
   background: #d8c3ab;
-  color: #000000;
+  color: #3b2e1d;
 }
 .muted a.status__content__spoiler-link:hover {
   background: rgb(198, 177, 153);
@@ -5232,7 +5232,7 @@ a.account__display-name:hover strong {
   text-decoration: none;
 }
 .notification__display-name:hover {
-  color: #000000;
+  color: #3b2e1d;
   text-decoration: underline;
 }
 
@@ -5442,7 +5442,7 @@ a.account__display-name:hover strong {
   box-sizing: border-box;
   text-decoration: none;
   background: #534432;
-  color: #000000;
+  color: #3b2e1d;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -5484,7 +5484,7 @@ a.account__display-name:hover strong {
   box-sizing: border-box;
   text-decoration: none;
   background: #534432;
-  color: #000000;
+  color: #3b2e1d;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -5661,7 +5661,7 @@ a.account__display-name:hover strong {
   background-color: #f5dfc6;
 }
 .column-width__item.active {
-  color: #000000;
+  color: #3b2e1d;
   background-color: #3c6da2;
 }
 .column-width input[type=radio] {
@@ -5760,7 +5760,7 @@ a.account__display-name:hover strong {
   display: block;
   flex: 1 0 auto;
   min-width: 50px;
-  color: #000000;
+  color: #3b2e1d;
   text-decoration: none;
   text-align: center;
   font-size: 14px;
@@ -6044,7 +6044,7 @@ a.account__display-name:hover strong {
   font-size: 10px;
   font-weight: 500;
   line-height: 14px;
-  color: #000000;
+  color: #3b2e1d;
 }
 .icon-with-badge__issue-badge {
   position: absolute;
@@ -6066,7 +6066,7 @@ a.account__display-name:hover strong {
   padding: 40px;
 }
 .column-title .logo {
-  fill: #000000;
+  fill: #3b2e1d;
   width: 50px;
   margin: 0 auto;
   margin-bottom: 40px;
@@ -6466,7 +6466,7 @@ a.account__display-name:hover strong {
 
 .column-link {
   background: rgb(225, 203, 178);
-  color: #000000;
+  color: #3b2e1d;
   display: block;
   font-size: 16px;
   padding: 15px;
@@ -6484,7 +6484,7 @@ a.account__display-name:hover strong {
 }
 .column-link--transparent:hover, .column-link--transparent:focus, .column-link--transparent:active {
   background: transparent;
-  color: #000000;
+  color: #3b2e1d;
 }
 .column-link--transparent.active {
   color: #3c6da2;
@@ -6508,7 +6508,7 @@ a.account__display-name:hover strong {
 
 .column-subheading {
   background: #f5dfc6;
-  color: #534432;
+  color: #6b5c48;
   padding: 8px 20px;
   font-size: 12px;
   font-weight: 500;
@@ -6531,7 +6531,7 @@ a.account__display-name:hover strong {
 }
 
 .getting-started {
-  color: #534432;
+  color: #6b5c48;
   overflow: auto;
 }
 .getting-started__footer {
@@ -6547,12 +6547,12 @@ a.account__display-name:hover strong {
   display: inline;
 }
 .getting-started__footer p {
-  color: #534432;
+  color: #6b5c48;
   font-size: 13px;
   margin-bottom: 20px;
 }
 .getting-started__footer p a {
-  color: #534432;
+  color: #6b5c48;
   text-decoration: underline;
 }
 .getting-started__footer a {
@@ -6622,7 +6622,7 @@ a.account__display-name:hover strong {
   box-sizing: border-box;
   width: 100%;
   margin: 0;
-  color: #000000;
+  color: #3b2e1d;
   background: #ffffff;
   padding: 10px;
   font-family: inherit;
@@ -6669,7 +6669,7 @@ button.icon-button.active i.fa-retweet {
   font-size: 14px;
   border: 1px solid rgb(225, 203, 178);
   border-radius: 4px;
-  color: #534432;
+  color: #6b5c48;
   margin-top: 14px;
   text-decoration: none;
   overflow: hidden;
@@ -6708,7 +6708,7 @@ button.icon-button.active i.fa-retweet {
 .status-card__actions a:hover,
 .status-card__actions a:active,
 .status-card__actions a:focus {
-  color: #000000;
+  color: #3b2e1d;
 }
 .status-card__actions a {
   font-size: 19px;
@@ -6848,7 +6848,7 @@ a.status-card.compact:hover {
 
 .load-more {
   display: block;
-  color: #534432;
+  color: #6b5c48;
   background-color: transparent;
   border: 0;
   font-size: inherit;
@@ -6893,7 +6893,7 @@ a.status-card.compact:hover {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  color: #534432;
+  color: #6b5c48;
   background: #f5dfc6;
   cursor: default;
   display: flex;
@@ -6919,7 +6919,7 @@ a.status-card.compact:hover {
 .regeneration-indicator__label strong {
   display: block;
   margin-bottom: 10px;
-  color: #534432;
+  color: #6b5c48;
 }
 .regeneration-indicator__label span {
   font-size: 15px;
@@ -7013,11 +7013,11 @@ a.status-card.compact:hover {
   color: rgb(65, 50, 32);
 }
 .column-header__button.active {
-  color: #000000;
+  color: #3b2e1d;
   background: rgb(225, 203, 178);
 }
 .column-header__button.active:hover {
-  color: #000000;
+  color: #3b2e1d;
   background: rgb(225, 203, 178);
 }
 .column-header__button.column-header__follow_button.active {
@@ -7103,7 +7103,7 @@ a.status-card.compact:hover {
 }
 
 .loading-indicator {
-  color: #534432;
+  color: #6b5c48;
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
@@ -7215,7 +7215,7 @@ a.status-card.compact:hover {
 .video-error-cover {
   align-items: center;
   background: #ffffff;
-  color: #000000;
+  color: #3b2e1d;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -7288,7 +7288,7 @@ a.status-card.compact:hover {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 8px;
   padding: 8px 12px;
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 500;
   font-size: 14px;
 }
@@ -7371,7 +7371,7 @@ a.status-card.compact:hover {
   }
 }
 .column-settings__hashtags .column-select__placeholder {
-  color: #534432;
+  color: #6b5c48;
   padding-left: 2px;
   font-size: 12px;
 }
@@ -7394,10 +7394,10 @@ a.status-card.compact:hover {
 .column-settings__hashtags .column-select__clear-indicator, .column-settings__hashtags .column-select__dropdown-indicator {
   cursor: pointer;
   transition: none;
-  color: #534432;
+  color: #6b5c48;
 }
 .column-settings__hashtags .column-select__clear-indicator:hover, .column-settings__hashtags .column-select__clear-indicator:active, .column-settings__hashtags .column-select__clear-indicator:focus, .column-settings__hashtags .column-select__dropdown-indicator:hover, .column-settings__hashtags .column-select__dropdown-indicator:active, .column-settings__hashtags .column-select__dropdown-indicator:focus {
-  color: rgb(73, 58, 40);
+  color: rgb(97, 82, 62);
 }
 .column-settings__hashtags .column-select__indicator-separator {
   background-color: rgb(225, 203, 178);
@@ -7408,14 +7408,14 @@ a.status-card.compact:hover {
   padding: 10px 14px;
   padding-bottom: 14px;
   margin-top: 10px;
-  color: #534432;
+  color: #6b5c48;
   box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.4);
   padding: 0;
   background: #534432;
 }
 .column-settings__hashtags .column-select__menu h4 {
   text-transform: uppercase;
-  color: #534432;
+  color: #6b5c48;
   font-size: 13px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -7428,13 +7428,13 @@ a.status-card.compact:hover {
 }
 .column-settings__hashtags .column-select__menu em {
   font-weight: 500;
-  color: #000000;
+  color: #3b2e1d;
 }
 .column-settings__hashtags .column-select__menu-list {
   padding: 6px;
 }
 .column-settings__hashtags .column-select__option {
-  color: #000000;
+  color: #3b2e1d;
   border-radius: 4px;
   font-size: 14px;
 }
@@ -7447,7 +7447,7 @@ a.status-card.compact:hover {
 }
 
 .relationship-tag {
-  color: #000000;
+  color: #3b2e1d;
   margin-bottom: 4px;
   display: block;
   background-color: #ffffff;
@@ -7478,7 +7478,7 @@ a.status-card.compact:hover {
 .empty-column-indicator,
 .error-column,
 .follow_requests-unlocked_explanation {
-  color: #534432;
+  color: #6b5c48;
   background: #f5dfc6;
   text-align: center;
   padding: 20px;
@@ -7770,21 +7770,21 @@ a.status-card.compact:hover {
 }
 
 .privacy-dropdown__option {
-  color: #000000;
+  color: #3b2e1d;
   padding: 10px;
   cursor: pointer;
   display: flex;
 }
 .privacy-dropdown__option:hover, .privacy-dropdown__option.active {
   background: #3c6da2;
-  color: #000000;
+  color: #3b2e1d;
   outline: 0;
 }
 .privacy-dropdown__option:hover .privacy-dropdown__option__content, .privacy-dropdown__option.active .privacy-dropdown__option__content {
-  color: #000000;
+  color: #3b2e1d;
 }
 .privacy-dropdown__option:hover .privacy-dropdown__option__content strong, .privacy-dropdown__option.active .privacy-dropdown__option__content strong {
-  color: #000000;
+  color: #3b2e1d;
 }
 .privacy-dropdown__option.active:hover {
   background: rgb(50, 99, 152);
@@ -7804,7 +7804,7 @@ a.status-card.compact:hover {
 .privacy-dropdown__option__content strong {
   font-weight: 500;
   display: block;
-  color: #000000;
+  color: #3b2e1d;
 }
 .privacy-dropdown__option__content strong:lang(ja) {
   font-weight: 700;
@@ -7834,7 +7834,7 @@ a.status-card.compact:hover {
   background: #3c6da2;
 }
 .privacy-dropdown.active .privacy-dropdown__value.active .icon-button {
-  color: #000000;
+  color: #3b2e1d;
 }
 .privacy-dropdown.active.top .privacy-dropdown__value {
   border-radius: 0 0 4px 4px;
@@ -7933,7 +7933,7 @@ a.status-card.compact:hover {
 }
 
 .search-results__header {
-  color: #534432;
+  color: #6b5c48;
   background: rgb(240, 218, 193);
   padding: 15px;
   font-weight: 500;
@@ -7956,7 +7956,7 @@ a.status-card.compact:hover {
   padding: 15px;
   font-weight: 500;
   font-size: 16px;
-  color: #534432;
+  color: #6b5c48;
 }
 .search-results__section h5 .fa {
   display: inline-block;
@@ -8079,7 +8079,7 @@ a.status-card.compact:hover {
   background: transparent;
   box-sizing: border-box;
   border: 0;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(59, 46, 29, 0.7);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -8092,7 +8092,7 @@ a.status-card.compact:hover {
   bottom: 0;
 }
 .media-modal__nav:hover, .media-modal__nav:focus, .media-modal__nav:active {
-  color: #000000;
+  color: #3b2e1d;
 }
 
 .media-modal__nav--left {
@@ -8200,7 +8200,7 @@ a.status-card.compact:hover {
 .error-modal,
 .embed-modal {
   background: #534432;
-  color: #000000;
+  color: #3b2e1d;
   border-radius: 8px;
   overflow: hidden;
   display: flex;
@@ -8287,7 +8287,7 @@ a.status-card.compact:hover {
 .error-modal__footer .onboarding-modal__nav.onboarding-modal__next,
 .error-modal__footer .error-modal__nav.onboarding-modal__done,
 .error-modal__footer .error-modal__nav.onboarding-modal__next {
-  color: #000000;
+  color: #3b2e1d;
 }
 .onboarding-modal__paginator .onboarding-modal__nav.onboarding-modal__done:hover, .onboarding-modal__paginator .onboarding-modal__nav.onboarding-modal__done:focus, .onboarding-modal__paginator .onboarding-modal__nav.onboarding-modal__done:active, .onboarding-modal__paginator .onboarding-modal__nav.onboarding-modal__next:hover, .onboarding-modal__paginator .onboarding-modal__nav.onboarding-modal__next:focus, .onboarding-modal__paginator .onboarding-modal__nav.onboarding-modal__next:active,
 .onboarding-modal__paginator .error-modal__nav.onboarding-modal__done:hover,
@@ -8308,7 +8308,7 @@ a.status-card.compact:hover {
 .error-modal__footer .error-modal__nav.onboarding-modal__next:hover,
 .error-modal__footer .error-modal__nav.onboarding-modal__next:focus,
 .error-modal__footer .error-modal__nav.onboarding-modal__next:active {
-  color: rgb(0, 0, 0);
+  color: rgb(49, 36, 19);
 }
 
 .error-modal__footer {
@@ -8322,7 +8322,7 @@ a.status-card.compact:hover {
 }
 .display-case__label {
   font-weight: 500;
-  color: #000000;
+  color: #3b2e1d;
   margin-bottom: 5px;
   text-transform: uppercase;
   font-size: 12px;
@@ -8350,7 +8350,7 @@ a.status-card.compact:hover {
 .mute-modal,
 .block-modal {
   background: rgb(63, 48, 30);
-  color: #000000;
+  color: #3b2e1d;
   border-radius: 8px;
   overflow: hidden;
   max-width: 90vw;
@@ -8504,7 +8504,7 @@ a.status-card.compact:hover {
 .report-modal__statuses .status__content p,
 .focal-point-modal__content .status__content,
 .focal-point-modal__content .status__content p {
-  color: #000000;
+  color: #3b2e1d;
 }
 @media screen and (max-width: 480px) {
   .report-modal__statuses,
@@ -8543,7 +8543,7 @@ a.status-card.compact:hover {
   box-sizing: border-box;
   width: 100%;
   margin: 0;
-  color: #000000;
+  color: #3b2e1d;
   background: #ffffff;
   padding: 10px;
   font-family: inherit;
@@ -8575,7 +8575,7 @@ a.status-card.compact:hover {
   border: 0;
 }
 .report-modal__comment .setting-text__wrapper__modifiers {
-  color: #000000;
+  color: #3b2e1d;
   font-family: inherit;
   font-size: 14px;
   background: #ffffff;
@@ -8587,7 +8587,7 @@ a.status-card.compact:hover {
 }
 .report-modal__comment .setting-text-label {
   display: block;
-  color: #000000;
+  color: #3b2e1d;
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -8597,7 +8597,7 @@ a.status-card.compact:hover {
   margin-bottom: 24px;
 }
 .report-modal__comment .setting-toggle__label {
-  color: #000000;
+  color: #3b2e1d;
   font-size: 14px;
 }
 @media screen and (max-width: 480px) {
@@ -8657,7 +8657,7 @@ a.status-card.compact:hover {
   margin: 0;
 }
 .actions-modal ul li:not(:empty) a {
-  color: #000000;
+  color: #3b2e1d;
   display: flex;
   padding: 12px 16px;
   font-size: 15px;
@@ -8674,7 +8674,7 @@ a.status-card.compact:hover {
 .actions-modal ul li:not(:empty) a:active button, .actions-modal ul li:not(:empty) a:focus,
 .actions-modal ul li:not(:empty) a:focus button {
   background: #3c6da2;
-  color: #000000;
+  color: #3b2e1d;
 }
 .actions-modal ul li:not(:empty) a button:first-child {
   margin-right: 10px;
@@ -8761,7 +8761,7 @@ a.status-card.compact:hover {
           appearance: none;
   box-sizing: border-box;
   font-size: 14px;
-  color: #000000;
+  color: #3b2e1d;
   display: inline-block;
   width: auto;
   outline: 0;
@@ -8815,7 +8815,7 @@ a.status-card.compact:hover {
   box-sizing: border-box;
   padding: 10px;
   margin: 0;
-  color: #000000;
+  color: #3b2e1d;
   background: #ffffff;
   font-family: inherit;
   font-size: 16px;
@@ -8841,7 +8841,7 @@ a.status-card.compact:hover {
 }
 .block-modal .setting-toggle__label,
 .mute-modal .setting-toggle__label {
-  color: #000000;
+  color: #3b2e1d;
   margin: 0;
   margin-left: 8px;
 }
@@ -8867,7 +8867,7 @@ a.status-card.compact:hover {
 .media-gallery__gifv__label {
   display: block;
   position: absolute;
-  color: #000000;
+  color: #3b2e1d;
   background: rgba(255, 255, 255, 0.5);
   bottom: 6px;
   left: 6px;
@@ -8896,7 +8896,7 @@ a.status-card.compact:hover {
 }
 .attachment-list__icon {
   flex: 0 0 auto;
-  color: #534432;
+  color: #6b5c48;
   padding: 8px 18px;
   cursor: default;
   border-right: 1px solid rgb(225, 203, 178);
@@ -8923,7 +8923,7 @@ a.status-card.compact:hover {
 }
 .attachment-list__list a {
   text-decoration: none;
-  color: #534432;
+  color: #6b5c48;
   font-weight: 500;
 }
 .attachment-list__list a:hover {
@@ -8938,7 +8938,7 @@ a.status-card.compact:hover {
   display: block;
 }
 .attachment-list.compact .fa {
-  color: #534432;
+  color: #6b5c48;
 }
 
 /* Media Gallery */
@@ -9433,7 +9433,7 @@ a.status-card.compact:hover {
 }
 .directory__card__bar .display-name strong {
   font-size: var(--info-font-size, 15px);
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 500;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -9552,7 +9552,7 @@ a.status-card.compact:hover {
 }
 .group__detail__bar .display-name strong {
   font-size: var(--info-font-size, 15px);
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 500;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -9584,7 +9584,7 @@ a.status-card.compact:hover {
 }
 .group__detail__extra .group__header__links a strong {
   font-weight: 700;
-  color: #000000;
+  color: #3b2e1d;
 }
 .group__detail__extra .group__header__content {
   box-sizing: border-box;
@@ -9839,12 +9839,12 @@ a.status-card.compact:hover {
   padding: 10px 14px;
   padding-bottom: 14px;
   margin-top: 10px;
-  color: #534432;
+  color: #6b5c48;
   box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.4);
 }
 .search-popout h4 {
   text-transform: uppercase;
-  color: #534432;
+  color: #6b5c48;
   font-size: 13px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -9857,7 +9857,7 @@ a.status-card.compact:hover {
 }
 .search-popout em {
   font-weight: 500;
-  color: #000000;
+  color: #3b2e1d;
 }
 
 noscript {
@@ -9974,7 +9974,7 @@ noscript div a:hover {
   padding: 10px;
   font-family: "mastodon-font-monospace", monospace;
   background: #f5dfc6;
-  color: #000000;
+  color: #3b2e1d;
   font-size: 14px;
   margin: 0;
   margin-bottom: 15px;
@@ -10012,7 +10012,7 @@ noscript div a:hover {
 .account__moved-note__message {
   position: relative;
   margin-left: 58px;
-  color: #534432;
+  color: #6b5c48;
   padding: 8px 0;
   padding-top: 0;
   padding-bottom: 4px;
@@ -10080,7 +10080,7 @@ noscript div a:hover {
 .list-link .list-favourite-button,
 .list-link .list-edit-button {
   background: rgb(225, 203, 178);
-  color: #000000;
+  color: #3b2e1d;
   margin: 0;
   font-size: 16px;
   text-align: left;
@@ -10202,7 +10202,7 @@ noscript div a:hover {
 .circle-link .circle-edit-button,
 .circle-link .circle-delete-button {
   background: rgb(225, 203, 178);
-  color: #000000;
+  color: #3b2e1d;
   padding: 15px;
   margin: 0;
   font-size: 16px;
@@ -10354,7 +10354,7 @@ noscript div a:hover {
   opacity: 0.5;
 }
 .focal-point__preview strong {
-  color: #000000;
+  color: #3b2e1d;
   font-size: 14px;
   font-weight: 500;
   display: block;
@@ -10484,7 +10484,7 @@ noscript div a:hover {
 .account__header__tabs__name h1 {
   font-size: calc(var(--info-font-size, 15px) * 1.067);
   line-height: 24px;
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 500;
   overflow: hidden;
   word-break: break-all;
@@ -10511,7 +10511,7 @@ noscript div a:hover {
 .account__header__bio .account__header__content {
   padding: 20px 15px;
   padding-bottom: 5px;
-  color: #000000;
+  color: #3b2e1d;
 }
 .columns-area--mobile .account__header__bio .account__header__content {
   padding-left: 20px;
@@ -10572,7 +10572,7 @@ noscript div a:hover {
 }
 .account__header__extra__links a strong {
   font-weight: 700;
-  color: #000000;
+  color: #3b2e1d;
 }
 .account__header__extra__hashtag-links {
   overflow: hidden;
@@ -10590,7 +10590,7 @@ noscript div a:hover {
 }
 .account__header__extra__hashtag-links a strong {
   font-weight: 700;
-  color: #000000;
+  color: #3b2e1d;
 }
 .account__header__extra__hashtag-links a.active {
   color: rgb(255, 233, 208);
@@ -10612,7 +10612,7 @@ noscript div a:hover {
 .account__header__account-note {
   padding: 15px;
   padding-bottom: 10px;
-  color: #000000;
+  color: #3b2e1d;
   font-size: 14px;
   font-weight: 400;
   border-bottom: 1px solid rgb(214, 192, 167);
@@ -10645,11 +10645,11 @@ noscript div a:hover {
   border-radius: 4px;
 }
 .account__header__account-note textarea::-moz-placeholder {
-  color: #534432;
+  color: #6b5c48;
   opacity: 1;
 }
 .account__header__account-note textarea::placeholder {
-  color: #534432;
+  color: #6b5c48;
   opacity: 1;
 }
 .account__header__account-note textarea:focus {
@@ -10657,7 +10657,7 @@ noscript div a:hover {
 }
 
 .trends__header {
-  color: #534432;
+  color: #6b5c48;
   background: rgb(240, 218, 193);
   border-bottom: 1px solid rgb(255, 233, 208);
   font-weight: 500;
@@ -10680,7 +10680,7 @@ noscript div a:hover {
 }
 .trends__item__name {
   flex: 1 1 auto;
-  color: #534432;
+  color: #6b5c48;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -10782,7 +10782,7 @@ noscript div a:hover {
   flex-grow: 1;
 }
 .conversation__content__names a {
-  color: #000000;
+  color: #3b2e1d;
   text-decoration: none;
 }
 .conversation__content__names a:hover, .conversation__content__names a:focus, .conversation__content__names a:active {
@@ -10801,7 +10801,7 @@ noscript div a:hover {
   font-weight: 700;
 }
 .conversation--unread .conversation__content__relative-time {
-  color: #000000;
+  color: #3b2e1d;
 }
 
 .announcements {
@@ -11050,7 +11050,7 @@ noscript div a:hover {
   margin-right: 10px;
 }
 .picture-in-picture__header .display-name {
-  color: #000000;
+  color: #3b2e1d;
   text-decoration: none;
 }
 .picture-in-picture__header .display-name strong,
@@ -11132,7 +11132,7 @@ noscript div a:hover {
   padding: 6px 4px;
   flex: 0 0 auto;
   font-size: 18px;
-  color: #000000;
+  color: #3b2e1d;
 }
 .circle-dropdown__menu {
   flex: 1 1 auto;
@@ -11143,7 +11143,7 @@ noscript div a:hover {
   font-size: 14px;
   line-height: 14px;
   text-align: left;
-  color: #000000;
+  color: #3b2e1d;
   display: inline-block;
   width: 100%;
   outline: 0;
@@ -11207,11 +11207,11 @@ noscript div a:hover {
   color: rgb(65, 50, 32);
 }
 .reference-stack .stack-header__button.active {
-  color: #000000;
+  color: #3b2e1d;
   background: rgb(225, 203, 178);
 }
 .reference-stack .stack-header__button.active:hover {
-  color: #000000;
+  color: #3b2e1d;
   background: rgb(225, 203, 178);
 }
 .reference-stack .stack-header__button-name {
@@ -11253,7 +11253,7 @@ noscript div a:hover {
   line-height: 24px;
 }
 .mini-status__scheduled-time {
-  color: #534432;
+  color: #6b5c48;
   margin-top: 4px;
   text-align: end;
 }
@@ -11405,7 +11405,7 @@ noscript div a:hover {
   box-sizing: border-box;
   width: 100%;
   font-size: 14px;
-  color: #000000;
+  color: #3b2e1d;
   outline: 0;
   font-family: inherit;
   background: #ffffff;
@@ -11474,7 +11474,7 @@ noscript div a:hover {
 .poll__footer {
   padding-top: 6px;
   padding-bottom: 5px;
-  color: #534432;
+  color: #6b5c48;
 }
 .poll__link {
   display: inline;
@@ -11482,7 +11482,7 @@ noscript div a:hover {
   padding: 0;
   margin: 0;
   border: 0;
-  color: #534432;
+  color: #6b5c48;
   text-decoration: underline;
   font-size: inherit;
 }
@@ -11490,7 +11490,7 @@ noscript div a:hover {
   text-decoration: none;
 }
 .poll__link:active, .poll__link:focus {
-  background-color: rgba(83, 68, 50, 0.1);
+  background-color: rgba(107, 92, 72, 0.1);
 }
 .poll .button {
   height: 36px;
@@ -11544,7 +11544,7 @@ noscript div a:hover {
           appearance: none;
   box-sizing: border-box;
   font-size: 14px;
-  color: #000000;
+  color: #3b2e1d;
   display: inline-block;
   width: auto;
   outline: 0;
@@ -11560,7 +11560,7 @@ noscript div a:hover {
 }
 
 .muted .poll {
-  color: #534432;
+  color: #6b5c48;
 }
 .muted .poll__chart {
   background: rgba(255, 180, 141, 0.2);
@@ -11609,7 +11609,7 @@ noscript div a:hover {
   padding: 0 4px 0 0;
 }
 .compose-form .compose-form__datetime-wrapper .datetime__expires-indicator {
-  color: #000000;
+  color: #3b2e1d;
   background: rgb(217, 130, 85);
   border-top: 1px solid rgb(255, 255, 255);
   padding: 10px;
@@ -11637,7 +11637,7 @@ noscript div a:hover {
 .compose-form .compose-form__datetime-wrapper input {
   box-sizing: border-box;
   font-size: 14px;
-  color: #000000;
+  color: #3b2e1d;
   border: 1px solid rgb(255, 255, 255);
   padding: 6px 10px;
   border-radius: 4px 0 0 4px;
@@ -11651,7 +11651,7 @@ noscript div a:hover {
           appearance: none;
   box-sizing: border-box;
   font-size: 14px;
-  color: #000000;
+  color: #3b2e1d;
   display: inline-block;
   width: 30px;
   outline: 0;
@@ -11849,7 +11849,7 @@ noscript div a:hover {
 .emoji-mart {
   font-size: 13px;
   display: inline-block;
-  color: #000000;
+  color: #3b2e1d;
 }
 .emoji-mart,
 .emoji-mart * {
@@ -11955,7 +11955,7 @@ noscript div a:hover {
   display: block;
   width: 100%;
   background: rgba(83, 68, 50, 0.3);
-  color: #000000;
+  color: #3b2e1d;
   border: 1px solid #534432;
   border-radius: 4px;
 }
@@ -12061,7 +12061,7 @@ noscript div a:hover {
 
 .emoji-mart-no-results {
   font-size: 14px;
-  color: #534432;
+  color: #6b5c48;
   text-align: center;
   padding: 5px 6px;
   padding-top: 70px;
@@ -12212,7 +12212,7 @@ noscript div a:hover {
   border-bottom-width: 2px;
   line-height: 1.5;
   font-weight: 500;
-  color: #534432;
+  color: #6b5c48;
 }
 .rich-formatting table th,
 .rich-formatting table td {
@@ -12262,7 +12262,7 @@ noscript div a:hover {
   font-family: "mastodon-font-sans-serif", sans-serif;
   font-size: 16px;
   line-height: 28px;
-  color: #000000;
+  color: #3b2e1d;
   text-align: right;
   padding: 10px 15px;
 }
@@ -12336,7 +12336,7 @@ noscript div a:hover {
 }
 .information-board .owner .name a {
   display: block;
-  color: #000000;
+  color: #3b2e1d;
   text-decoration: none;
 }
 .information-board .owner .name a:hover .display_name {
@@ -12589,7 +12589,7 @@ noscript div a:hover {
 }
 .landing-page__short-description h1 {
   font-weight: 500;
-  color: #000000;
+  color: #3b2e1d;
   margin-bottom: 0;
 }
 .landing-page__short-description h1 small {
@@ -12659,7 +12659,7 @@ noscript div a:hover {
   padding: 50px;
 }
 .landing__brand svg {
-  fill: #000000;
+  fill: #3b2e1d;
   height: 52px;
 }
 @media screen and (max-width: 415px) {
@@ -12821,7 +12821,7 @@ noscript div a:hover {
     position: static;
     width: auto;
     margin-top: 20px;
-    color: #534432;
+    color: #6b5c48;
   }
 }
 
@@ -12834,14 +12834,14 @@ noscript div a:hover {
 }
 .rules-list li {
   border-bottom: 1px solid rgb(235, 213, 188);
-  color: #534432;
+  color: #6b5c48;
   padding: 1em;
 }
 .rules-list li:last-child {
   border-bottom: 0;
 }
 .rules-list__text {
-  color: #000000;
+  color: #3b2e1d;
 }
 
 .table {
@@ -12957,7 +12957,7 @@ a.table-action-link {
 }
 button.table-action-link:hover,
 a.table-action-link:hover {
-  color: #000000;
+  color: #3b2e1d;
 }
 button.table-action-link i.fa,
 a.table-action-link i.fa {
@@ -13157,7 +13157,7 @@ a.table-action-link:disabled:hover {
   padding: 15px;
 }
 .admin-wrapper .sidebar__toggle__logo svg {
-  fill: #000000;
+  fill: #3b2e1d;
   height: 20px;
   position: relative;
   bottom: -2px;
@@ -13211,7 +13211,7 @@ a.table-action-link:disabled:hover {
   margin-right: 5px;
 }
 .admin-wrapper .sidebar ul a:hover {
-  color: #000000;
+  color: #3b2e1d;
   background-color: rgb(255, 234, 211);
   transition: all 100ms linear;
   transition-property: color, background-color;
@@ -13230,7 +13230,7 @@ a.table-action-link:disabled:hover {
   padding: 15px 35px;
 }
 .admin-wrapper .sidebar ul .simple-navigation-active-leaf a {
-  color: #000000;
+  color: #3b2e1d;
   background-color: #3c6da2;
   border-bottom: 0;
   border-radius: 0;
@@ -13330,7 +13330,7 @@ a.table-action-link:disabled:hover {
   font-weight: 500;
 }
 .admin-wrapper .content .fields-group h6 {
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 500;
 }
 .admin-wrapper .content .directory__tag > a,
@@ -13343,7 +13343,7 @@ a.table-action-link:disabled:hover {
 .admin-wrapper .content .directory__tag h4 {
   font-size: 18px;
   font-weight: 700;
-  color: #000000;
+  color: #3b2e1d;
   text-transform: none;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -13356,7 +13356,7 @@ a.table-action-link:disabled:hover {
   margin-bottom: 20px;
 }
 .admin-wrapper .content > p strong {
-  color: #000000;
+  color: #3b2e1d;
   font-weight: 500;
 }
 .admin-wrapper .content > p strong:lang(ja) {
@@ -13448,7 +13448,7 @@ body .negative-hint,
 }
 body .neutral-hint,
 .admin-wrapper .content .neutral-hint {
-  color: #534432;
+  color: #6b5c48;
   font-weight: 500;
 }
 body .warning-hint,
@@ -13513,7 +13513,7 @@ body .warning-hint,
   border-bottom: 2px solid #f5dfc6;
 }
 .filters .filter-subset a:hover {
-  color: #000000;
+  color: #3b2e1d;
   border-bottom: 2px solid rgb(232, 210, 185);
 }
 .filters .filter-subset a.selected {
@@ -13685,7 +13685,7 @@ body .warning-hint,
   word-wrap: break-word;
 }
 .log-entry__timestamp {
-  color: #534432;
+  color: #6b5c48;
 }
 .log-entry a,
 .log-entry .username,
@@ -13771,7 +13771,7 @@ a.name-tag.suspended .avatar,
   padding-left: 12px;
 }
 .speech-bubble time {
-  color: #534432;
+  color: #6b5c48;
 }
 
 .report-card {
@@ -13836,7 +13836,7 @@ a.name-tag.suspended .avatar,
   max-width: calc(100% - 300px);
 }
 .report-card__summary__item__content__icon {
-  color: #534432;
+  color: #6b5c48;
   margin-right: 4px;
   font-weight: 500;
 }
@@ -13897,7 +13897,7 @@ a.name-tag.suspended .avatar,
 .admin-account-bio .account__header__content {
   box-sizing: border-box;
   padding: 20px;
-  color: #000000;
+  color: #3b2e1d;
 }
 
 .center-text {
@@ -13924,11 +13924,11 @@ a.name-tag.suspended .avatar,
   margin-bottom: 10px;
 }
 .announcements-list__item__title:hover, .announcements-list__item__title:focus, .announcements-list__item__title:active {
-  color: #000000;
+  color: #3b2e1d;
 }
 .announcements-list__item__meta {
   padding: 0 15px;
-  color: #534432;
+  color: #6b5c48;
 }
 .announcements-list__item__action-bar {
   display: flex;
@@ -14003,7 +14003,7 @@ a.name-tag.suspended .avatar,
   font-weight: 500;
   font-size: 24px;
   line-height: 21px;
-  color: #000000;
+  color: #3b2e1d;
   font-family: "mastodon-font-display", sans-serif;
   margin-bottom: 20px;
   line-height: 30px;
@@ -14542,8 +14542,8 @@ body.rtl .simple_form .beta_features.float {
 }
 
 .reply-indicator__content blockquote {
-  border-left-color: #000000;
-  color: #000000;
+  border-left-color: #3b2e1d;
+  color: #3b2e1d;
 }
 
 html {
@@ -14667,7 +14667,7 @@ html {
 .block-modal__cancel-button:hover,
 .block-modal__cancel-button:focus,
 .block-modal__cancel-button:active {
-  color: #000000;
+  color: #3b2e1d;
 }
 
 .column-subheading {
@@ -15106,7 +15106,7 @@ html {
 
 .empty-column-indicator,
 .error-column {
-  color: #000000;
+  color: #3b2e1d;
   background: #fffbf7;
 }
 
@@ -15268,23 +15268,23 @@ html {
   border-bottom-color: rgb(225, 203, 178);
 }
 .activity-stream .status.light .status__content {
-  color: #000000;
+  color: #3b2e1d;
 }
 .activity-stream .status.light .display-name strong {
-  color: #000000;
+  color: #3b2e1d;
 }
 
 .accounts-grid .account-grid-card .controls .icon-button {
   color: #534432;
 }
 .accounts-grid .account-grid-card .name a {
-  color: #000000;
+  color: #3b2e1d;
 }
 .accounts-grid .account-grid-card .username {
   color: #534432;
 }
 .accounts-grid .account-grid-card .account__header__content {
-  color: #000000;
+  color: #3b2e1d;
 }
 
 .simple_form .warning,
@@ -15416,7 +15416,7 @@ button.icon-button:disabled i.fa-retweet, button.icon-button:disabled:hover i.fa
 @media screen and (max-width: 600px) {
   .public-layout .public-account-header__tabs__name h1,
   .public-layout .public-account-header__tabs__name h1 small {
-    color: #000000;
+    color: #3b2e1d;
   }
 }
 .public-layout .public-account-header__extra .public-account-bio {

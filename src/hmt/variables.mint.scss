@@ -22,14 +22,14 @@ $ui-primary-color: #72d6d4; // $primary
 $ui-secondary-color: $classic-base-color !default;
 $ui-highlight-color: #1d819f; // $info
 
-$primary-text-color: $black !default;
+$primary-text-color: #233333; // $black
 $darker-text-color: $classic-base-color !default;
-$dark-text-color: #394a49; // $gray-900
+$dark-text-color: #506261; // $gray-800
 $action-button-color: #697a79; // $gray-700
 
-$inverted-text-color: $black !default;
+$inverted-text-color: #233333; // $black
 $lighter-text-color: $classic-base-color !default;
-$light-text-color: #394a49; // $gray-900
+$light-text-color: #506261; // $gray-800
 
 //Newly added colors
 $account-background-color: $white !default;
