@@ -31,7 +31,7 @@ html {
 .column-inline-form,
 .error-column,
 .regeneration-indicator {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
   border: 1px solid lighten($ui-base-color, 8%);
   border-top: 0;
 }
@@ -42,7 +42,7 @@ html {
 
 .filter-form,
 .directory__card__bar {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
   border-bottom: 1px solid lighten($ui-base-color, 8%);
 }
 
@@ -82,12 +82,12 @@ html {
 .account__header__bar,
 .directory__card__bar,
 .directory__card__extra {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
 }
 
 .public-layout .directory__card,
 .columns-area--mobile .directory__card {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
 }
 
 .column-header__button.active {
@@ -135,7 +135,7 @@ html {
   .list-edit-button,
   .circle-edit-button,
   .circle-delete-button {
-    background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+    background: mix($white, darken($ui-base-color, 7%), 80%);
     border-bottom: 1px solid lighten($ui-base-color, 8%);
 
     &:hover,
@@ -235,7 +235,7 @@ html {
 // Change the colors used in compose-form
 .compose-form {
   .compose-form__modifiers {
-    background-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+    background-color: mix($white, darken($ui-base-color, 7%), 80%);
 
     .compose-form__upload__actions .icon-button {
       color: lighten($white, 7%);
@@ -261,7 +261,7 @@ html {
   }
 
   .autosuggest-textarea__textarea {
-    background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+    background: mix($white, darken($ui-base-color, 7%), 80%);
   }
 
   .autosuggest-textarea__suggestions {
@@ -280,7 +280,7 @@ html {
 
 .emoji-picker-dropdown__menu,
 .dropdown-menu.dropdown-menu-reaction {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
 }
 
 .emoji-mart-bar {
@@ -293,7 +293,7 @@ html {
 
 .emoji-mart-search,
 .emoji-mart-scroll {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
 }
 
 .emoji-mart-search input {
@@ -302,7 +302,7 @@ html {
 }
 
 .emoji-mart-category-label span {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
 }
 
 // Change the background colors of statuses
@@ -312,7 +312,7 @@ html {
 
 .detailed-status,
 .detailed-status__action-bar {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
 }
 
 // Change the background colors of status__content__spoiler-link
@@ -341,29 +341,29 @@ html {
 
 // Change the colors used in the dropdown menu
 .dropdown-menu {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
 
   &__arrow {
     &.left {
-      border-left-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+      border-left-color: mix($white, darken($ui-base-color, 7%), 80%);
     }
 
     &.top {
-      border-top-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+      border-top-color: mix($white, darken($ui-base-color, 7%), 80%);
     }
 
     &.bottom {
-      border-bottom-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+      border-bottom-color: mix($white, darken($ui-base-color, 7%), 80%);
     }
 
     &.right {
-      border-right-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+      border-right-color: mix($white, darken($ui-base-color, 7%), 80%);
     }
   }
 
   &__item {
     a {
-      background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+      background: mix($white, darken($ui-base-color, 7%), 80%);
       color: $darker-text-color;
     }
   }
@@ -372,24 +372,24 @@ html {
 // Change the colors used in the account popup
 .account-popup {
   &.dropdown-menu {
-    background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+    background: mix($white, darken($ui-base-color, 7%), 80%);
   }
 
   &__arrow.dropdown-menu__arrow {
     &.left {
-      border-left-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+      border-left-color: mix($white, darken($ui-base-color, 7%), 80%);
     }
   
     &.top {
-      border-top-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+      border-top-color: mix($white, darken($ui-base-color, 7%), 80%);
     }
   
     &.bottom {
-      border-bottom-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+      border-bottom-color: mix($white, darken($ui-base-color, 7%), 80%);
     }
   
     &.right {
-      border-right-color: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+      border-right-color: mix($white, darken($ui-base-color, 7%), 80%);
     }
   }
 }
@@ -439,7 +439,7 @@ html {
 .announcements,
 .picture-in-picture__header,
 .picture-in-picture__footer {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
   border: 1px solid lighten($ui-base-color, 8%);
 }
 
@@ -524,16 +524,16 @@ html {
 }
 
 .display-case__case {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
 }
 
 .embed-modal .embed-modal__container .embed-modal__html {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
   border: 1px solid lighten($ui-base-color, 8%);
 
   &:focus {
     border-color: lighten($ui-base-color, 12%);
-    background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+    background: mix($white, darken($ui-base-color, 7%), 80%);
   }
 }
 
@@ -553,7 +553,7 @@ html {
 .empty-column-indicator,
 .error-column {
   color: $primary-text-color;
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
 }
 
 .tabs-bar {
@@ -602,7 +602,7 @@ html {
 .contact-widget,
 .landing .hero-widget__text,
 .landing-page__information.contact-widget {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
   border: 1px solid lighten($ui-base-color, 8%);
 
   @media screen and (max-width: $no-gap-breakpoint) {
@@ -630,7 +630,7 @@ html {
 }
 
 .landing .hero-widget__footer {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
   border: 1px solid lighten($ui-base-color, 8%);
   border-top: 0;
 
@@ -641,7 +641,7 @@ html {
 
 .landing .hero-widget {
   &__text, &__footer {
-    background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+    background: mix($white, darken($ui-base-color, 7%), 80%);
   }
 }
 
@@ -718,7 +718,7 @@ html {
   }
 
   .entry {
-    background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+    background: mix($white, darken($ui-base-color, 7%), 80%);
 
     .detailed-status.light,
     .more.light,
@@ -814,7 +814,7 @@ html {
 }
 
 .statuses-grid .detailed-status {
-  background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  background: mix($white, darken($ui-base-color, 7%), 80%);
 }
 
 .status__content,
@@ -862,7 +862,7 @@ button.icon-button {
 
   .public-account-bio,
   .hero-widget__text {
-    background: mix(darken($ui-base-color, 7%), #ffffff, 20%);
+    background: mix($white, darken($ui-base-color, 7%), 80%);
   }
 
   .header {
@@ -937,7 +937,7 @@ button.icon-button {
 .notification__filter-bar button.active::after,
 .account__section-headline a.active::after,
 .status__section-headline a.active::after {
-  border-color: transparent transparent mix(darken($ui-base-color, 7%), #ffffff, 20%);
+  border-color: transparent transparent mix($white, darken($ui-base-color, 7%), 80%);
 }
 
 .hero-widget,

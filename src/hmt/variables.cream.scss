@@ -1,0 +1,52 @@
+// Dependent colors
+$black: #000000;
+$white: #ffffff;
+
+$classic-base-color: #534432; // $gray-900
+$classic-primary-color: #85745f; // $gray-700
+$classic-secondary-color: #f5dfc6; // $gray-100
+$classic-highlight-color: #ed9669; // $primary
+
+// Differences
+$success-green: #769c56;
+$error-red: #c16b71;
+$warning-red: #ce7c52;
+$gold-star: #d9a14c;
+
+$base-overlay-background: $white !default;
+$valid-value-color: $success-green !default;
+
+$ui-base-color: $classic-secondary-color !default;
+$ui-base-lighter-color: #d8c3ab; // $gray-300
+$ui-primary-color: #ed9669; // $primary
+$ui-secondary-color: $classic-base-color !default;
+$ui-highlight-color: #3c6da2; // $info
+
+$primary-text-color: $black !default;
+$darker-text-color: $classic-base-color !default;
+$dark-text-color: #534432; // $gray-900
+$action-button-color: #85745f; // $gray-700
+
+$inverted-text-color: $black !default;
+$lighter-text-color: $classic-base-color !default;
+$light-text-color: #534432; // $gray-900
+
+//Newly added colors
+$account-background-color: $white !default;
+
+//Invert darkened and lightened colors
+@function darken($color, $amount) {
+  // @return hsl(hue($color), saturation($color) + $amount, lightness($color) + $amount);
+  // $room: 255 - max(red($color), green($color), blue($color));
+  $room: 255;
+  @return rgb(red($color) + $room * calc($amount / 100%), green($color) + $room * calc($amount / 100%), blue($color) + $room * calc($amount / 100%));
+}
+
+@function lighten($color, $amount) {
+  // @return hsl(hue($color), saturation($color) + $amount, lightness($color) - $amount);
+  // $room: min(red($color), green($color), blue($color));
+  $room: 255;
+  @return rgb(red($color) - $room * calc($amount / 100%), green($color) - $room * calc($amount / 100%), blue($color) - $room * calc($amount / 100%));
+}
+
+$emojis-requiring-inversion: 'chains';
