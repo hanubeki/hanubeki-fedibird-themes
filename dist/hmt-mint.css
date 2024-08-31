@@ -14915,6 +14915,7 @@ html {
 
 .account-popup.dropdown-menu {
   background: #fafefd;
+  color: #394a49;
 }
 .account-popup__arrow.dropdown-menu__arrow.left {
   border-left-color: #fafefd;

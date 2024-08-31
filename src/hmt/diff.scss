@@ -373,6 +373,7 @@ html {
 .account-popup {
   &.dropdown-menu {
     background: mix($white, darken($ui-base-color, 7%), 80%);
+    color: $darker-text-color;
   }
 
   &__arrow.dropdown-menu__arrow {
