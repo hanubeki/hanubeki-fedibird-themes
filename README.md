@@ -14,3 +14,9 @@ Note that these themes is for Fedibird, based on ancient Mastodon v3.4.1.
 
 ### hmt-pink
 ![Preview of hmt-mint theme for Fedibird](/preview/hlt-pink.png)
+
+### hmt-blue
+![Preview of hmt-blue theme for Fedibird](/preview/hlt-blue.png)
+
+### hmt-cream
+![Preview of hmt-cream theme for Fedibird](/preview/hlt-cream.png)
