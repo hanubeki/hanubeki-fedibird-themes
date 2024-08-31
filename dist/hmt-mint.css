@@ -755,7 +755,7 @@ article .__ns__pop2top {
   overflow: hidden;
   height: 300px;
   position: relative;
-  background: rgb(242, 255, 255);
+  background: rgb(242, 255, 254);
 }
 .public-layout .public-account-header__image::after {
   content: "";
@@ -1968,7 +1968,7 @@ code {
 .simple_form .hint code {
   border-radius: 3px;
   padding: 0.2em 0.4em;
-  background: rgb(242, 255, 255);
+  background: rgb(242, 255, 254);
 }
 .simple_form .hint li {
   list-style: disc;
@@ -2186,7 +2186,7 @@ code {
   outline: 0;
   font-family: inherit;
   resize: vertical;
-  background: rgb(237, 255, 255);
+  background: rgb(237, 255, 254);
   border: 1px solid rgb(247, 255, 255);
   border-radius: 4px;
   padding: 10px;
@@ -2354,7 +2354,7 @@ code {
   outline: 0;
   font-family: inherit;
   resize: vertical;
-  background: rgb(237, 255, 255) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14.933 18.467' height='19.698' width='15.929'><path d='M3.467 14.967l-3.393-3.5H14.86l-3.392 3.5c-1.866 1.925-3.666 3.5-4 3.5-.335 0-2.135-1.575-4-3.5zm.266-11.234L7.467 0 11.2 3.733l3.733 3.734H0l3.733-3.734z' fill='%23B4C7C6'/></svg>") no-repeat right 8px center/auto 16px;
+  background: rgb(237, 255, 254) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14.933 18.467' height='19.698' width='15.929'><path d='M3.467 14.967l-3.393-3.5H14.86l-3.392 3.5c-1.866 1.925-3.666 3.5-4 3.5-.335 0-2.135-1.575-4-3.5zm.266-11.234L7.467 0 11.2 3.733l3.733 3.734H0l3.733-3.734z' fill='%23B4C7C6'/></svg>") no-repeat right 8px center/auto 16px;
   border: 1px solid rgb(247, 255, 255);
   border-radius: 4px;
   padding-left: 10px;
@@ -2390,7 +2390,7 @@ code {
   right: 0;
   bottom: 1px;
   width: 5px;
-  background-image: linear-gradient(to right, rgba(237, 255, 255, 0), rgb(237, 255, 255));
+  background-image: linear-gradient(to right, rgba(237, 255, 254, 0), rgb(237, 255, 254));
 }
 .simple_form__overlay-area {
   position: relative;
@@ -2778,7 +2778,7 @@ code {
 }
 
 .input-copy {
-  background: rgb(237, 255, 255);
+  background: rgb(237, 255, 254);
   border: 1px solid rgb(247, 255, 255);
   border-radius: 4px;
   display: flex;
@@ -2894,7 +2894,7 @@ code {
 .card__img {
   height: 130px;
   position: relative;
-  background: rgb(242, 255, 255);
+  background: rgb(242, 255, 254);
   border-radius: 4px 4px 0 0;
 }
 .card__img img {
@@ -3638,7 +3638,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   color: #1d819f;
 }
 .icon-button.inverted.active.disabled {
-  color: rgb(0, 96, 126);
+  color: rgb(0, 97, 126);
 }
 .icon-button.overlayed {
   box-sizing: content-box;
@@ -4752,7 +4752,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   pointer-events: none;
 }
 .detailed-status.context-referenced::before {
-  border-left: 4px solid rgb(255, 212, 127);
+  border-left: 4px solid rgb(255, 204, 127);
 }
 .detailed-status.referenced::before {
   border-left: 4px solid #d9a14c;
@@ -6397,7 +6397,7 @@ a.account__display-name:hover strong {
 }
 
 .react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track {
-  background-color: rgb(237, 255, 255);
+  background-color: rgb(237, 255, 254);
 }
 
 .react-toggle--checked .react-toggle-track {
@@ -6886,7 +6886,7 @@ a.status-card.compact:hover {
 }
 .timeline-hint a:hover, .timeline-hint a:focus, .timeline-hint a:active {
   text-decoration: underline;
-  color: rgb(0, 98, 128);
+  color: rgb(0, 99, 128);
 }
 
 .regeneration-indicator {
@@ -9380,7 +9380,7 @@ a.status-card.compact:hover {
 .directory__card__img {
   height: 125px;
   position: relative;
-  background: var(--theme-color, rgb(242, 255, 255));
+  background: var(--theme-color, rgb(242, 255, 254));
   overflow: hidden;
 }
 .directory__card__img img {
@@ -9501,7 +9501,7 @@ a.status-card.compact:hover {
 .group__detail__img {
   height: 125px;
   position: relative;
-  background: rgb(242, 255, 255);
+  background: rgb(242, 255, 254);
   overflow: hidden;
 }
 .group__detail__img img {
@@ -11012,7 +11012,7 @@ noscript div a:hover {
 .notification.status__wrapper-context-referenced::before,
 .status__wrapper.status__wrapper-context-referenced::before,
 .mini-status__wrapper.status__wrapper-context-referenced::before {
-  border-left: 4px solid rgb(255, 212, 127);
+  border-left: 4px solid rgb(255, 204, 127);
 }
 .notification.status__wrapper-referenced::before,
 .status__wrapper.status__wrapper-referenced::before,
@@ -12971,7 +12971,7 @@ a.table-action-link:first-child {
 button.table-action-link:disabled, button.table-action-link:disabled:hover,
 a.table-action-link:disabled,
 a.table-action-link:disabled:hover {
-  color: rgb(191, 255, 255);
+  color: rgb(191, 255, 254);
   cursor: default;
 }
 
@@ -13040,16 +13040,16 @@ a.table-action-link:disabled:hover {
   background: rgb(206, 225, 224);
 }
 .batch-table__row--expired {
-  background: rgb(255, 255, 220);
+  background: rgb(255, 232, 220);
 }
 .batch-table__row--expired:hover {
-  background: rgb(255, 255, 215);
+  background: rgb(255, 228, 215);
 }
 .batch-table__row--expired:nth-child(even) {
-  background: rgb(255, 252, 210);
+  background: rgb(255, 225, 210);
 }
 .batch-table__row--expired:nth-child(even):hover {
-  background: rgb(255, 246, 204);
+  background: rgb(255, 222, 204);
 }
 .batch-table__row__content {
   padding-top: 12px;
@@ -14314,10 +14314,10 @@ body.rtl .simple_form .label_input__append {
 body.rtl .simple_form .label_input__append::after {
   right: auto;
   left: 0;
-  background-image: linear-gradient(to left, rgba(237, 255, 255, 0), rgb(237, 255, 255));
+  background-image: linear-gradient(to left, rgba(237, 255, 254, 0), rgb(237, 255, 254));
 }
 body.rtl .simple_form select {
-  background: rgb(237, 255, 255) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14.933 18.467' height='19.698' width='15.929'><path d='M3.467 14.967l-3.393-3.5H14.86l-3.392 3.5c-1.866 1.925-3.666 3.5-4 3.5-.335 0-2.135-1.575-4-3.5zm.266-11.234L7.467 0 11.2 3.733l3.733 3.734H0l3.733-3.734z' fill='%23B4C7C6'/></svg>") no-repeat left 8px center/auto 16px;
+  background: rgb(237, 255, 254) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14.933 18.467' height='19.698' width='15.929'><path d='M3.467 14.967l-3.393-3.5H14.86l-3.392 3.5c-1.866 1.925-3.666 3.5-4 3.5-.335 0-2.135-1.575-4-3.5zm.266-11.234L7.467 0 11.2 3.733l3.733 3.734H0l3.733-3.734z' fill='%23B4C7C6'/></svg>") no-repeat left 8px center/auto 16px;
 }
 body.rtl .table th,
 body.rtl .table td {
@@ -14768,7 +14768,7 @@ html {
 
 .compose-form .compose-form__datetime-wrapper .datetime__schedule .datetime-dropdown .datetime-dropdown__input-invalid,
 .compose-form .compose-form__datetime-wrapper .datetime__expire .datetime-dropdown .datetime-dropdown__input-invalid {
-  background-color: rgb(255, 196, 202);
+  background-color: rgb(255, 196, 200);
 }
 
 .compose-form .compose-form__datetime-wrapper select,
@@ -14985,7 +14985,7 @@ html {
   border: 1px solid rgb(191, 210, 209);
 }
 .confirmation-modal__passphrase .passphrase__input.invalid {
-  background-color: rgb(255, 196, 202);
+  background-color: rgb(255, 196, 200);
 }
 
 .reactions-bar__item:hover:enabled, .reactions-bar__item:focus:enabled, .reactions-bar__item:active:enabled {
@@ -15076,7 +15076,7 @@ html {
 .error-modal__footer .error-modal__nav:hover,
 .error-modal__footer .error-modal__nav:focus,
 .error-modal__footer .error-modal__nav:active {
-  background-color: rgb(242, 255, 255);
+  background-color: rgb(242, 255, 254);
 }
 
 .display-case__case {
@@ -15241,16 +15241,16 @@ html {
   border-color: rgb(191, 210, 209);
 }
 .batch-table__row--expired {
-  background: rgb(255, 198, 156);
+  background: rgb(255, 189, 156);
 }
 .batch-table__row--expired:hover {
-  background: rgb(255, 193, 151);
+  background: rgb(255, 186, 151);
 }
 .batch-table__row--expired:nth-child(even) {
-  background: rgb(255, 188, 146);
+  background: rgb(255, 183, 146);
 }
 .batch-table__row--expired:nth-child(even):hover {
-  background: rgb(255, 183, 141);
+  background: rgb(255, 179, 141);
 }
 
 .activity-stream {

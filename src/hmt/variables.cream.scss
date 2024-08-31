@@ -39,14 +39,56 @@ $account-background-color: $white !default;
   // @return hsl(hue($color), saturation($color) + $amount, lightness($color) + $amount);
   // $room: 255 - max(red($color), green($color), blue($color));
   $room: 255;
-  @return rgb(red($color) + $room * calc($amount / 100%), green($color) + $room * calc($amount / 100%), blue($color) + $room * calc($amount / 100%));
+
+  $tmp-r: red($color) + $room * calc($amount / 100%);
+  $tmp-g: green($color) + $room * calc($amount / 100%);
+  $tmp-b: blue($color) + $room * calc($amount / 100%);
+  $tmp-max: max($tmp-r, $tmp-g, $tmp-b);
+  $tmp-min: min($tmp-r, $tmp-g, $tmp-b);
+
+  $return: rgb($tmp-r, $tmp-g, $tmp-b);
+
+  @if $tmp-max != $tmp-min {
+    @if $tmp-min > 255 {
+      $return: rgb(255, 255, 255);
+    } @else if $tmp-max > 255 {
+      $clamped-r: $tmp-min + calc((255 - $tmp-min) * ($tmp-r - $tmp-min) / ($tmp-max - $tmp-min));
+      $clamped-g: $tmp-min + calc((255 - $tmp-min) * ($tmp-g - $tmp-min) / ($tmp-max - $tmp-min));
+      $clamped-b: $tmp-min + calc((255 - $tmp-min) * ($tmp-b - $tmp-min) / ($tmp-max - $tmp-min));
+
+      $return: rgb($clamped-r, $clamped-g, $clamped-b);
+    }
+  }
+
+  @return $return;
 }
 
 @function lighten($color, $amount) {
   // @return hsl(hue($color), saturation($color) + $amount, lightness($color) - $amount);
   // $room: min(red($color), green($color), blue($color));
   $room: 255;
-  @return rgb(red($color) - $room * calc($amount / 100%), green($color) - $room * calc($amount / 100%), blue($color) - $room * calc($amount / 100%));
+
+  $tmp-r: red($color) - $room * calc($amount / 100%);
+  $tmp-g: green($color) - $room * calc($amount / 100%);
+  $tmp-b: blue($color) - $room * calc($amount / 100%);
+  $tmp-max: max($tmp-r, $tmp-g, $tmp-b);
+  $tmp-min: min($tmp-r, $tmp-g, $tmp-b);
+
+  $return: rgb($tmp-r, $tmp-g, $tmp-b);
+
+  @if $tmp-max != $tmp-min {
+    @if $tmp-max < 0 {
+      $return: rgb(0, 0, 0);
+    } @else if $tmp-min < 0 {
+      $clamped-r: calc($tmp-max * ($tmp-r - $tmp-min) / ($tmp-max - $tmp-min));
+      $clamped-g: calc($tmp-max * ($tmp-g - $tmp-min) / ($tmp-max - $tmp-min));
+      $clamped-b: calc($tmp-max * ($tmp-b - $tmp-min) / ($tmp-max - $tmp-min));
+
+      $return: rgb($clamped-r, $clamped-g, $clamped-b);
+    }
+  }
+
+  @return $return;
 }
 
 $emojis-requiring-inversion: 'chains';

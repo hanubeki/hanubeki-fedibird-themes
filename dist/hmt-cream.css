@@ -138,7 +138,7 @@ html {
 
 body {
   font-family: "mastodon-font-sans-serif", sans-serif;
-  background: rgb(255, 241, 216);
+  background: rgb(255, 237, 216);
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
@@ -755,7 +755,7 @@ article .__ns__pop2top {
   overflow: hidden;
   height: 300px;
   position: relative;
-  background: rgb(255, 254, 229);
+  background: rgb(255, 243, 229);
 }
 .public-layout .public-account-header__image::after {
   content: "";
@@ -838,7 +838,7 @@ article .__ns__pop2top {
   margin: 0;
   border-radius: 50%;
   border: 4px solid rgb(235, 213, 188);
-  background: rgb(255, 243, 218);
+  background: rgb(255, 238, 218);
 }
 @media screen and (max-width: 600px) {
   .public-layout .public-account-header__bar {
@@ -1650,7 +1650,7 @@ article .__ns__pop2top {
   border-radius: 50%;
   position: relative;
   margin-left: -10px;
-  background: rgb(255, 243, 218);
+  background: rgb(255, 238, 218);
   border: 2px solid #f5dfc6;
 }
 .avatar-stack .account__avatar:nth-child(1) {
@@ -1968,7 +1968,7 @@ code {
 .simple_form .hint code {
   border-radius: 3px;
   padding: 0.2em 0.4em;
-  background: rgb(255, 254, 229);
+  background: rgb(255, 243, 229);
 }
 .simple_form .hint li {
   list-style: disc;
@@ -2186,8 +2186,8 @@ code {
   outline: 0;
   font-family: inherit;
   resize: vertical;
-  background: rgb(255, 249, 224);
-  border: 1px solid rgb(255, 255, 234);
+  background: rgb(255, 240, 224);
+  border: 1px solid rgb(255, 245, 234);
   border-radius: 4px;
   padding: 10px;
 }
@@ -2224,7 +2224,7 @@ code {
 .simple_form input[type=password]:hover,
 .simple_form input[type=url]:hover,
 .simple_form textarea:hover {
-  border-color: rgb(255, 255, 249);
+  border-color: rgb(255, 252, 249);
 }
 .simple_form input[type=text]:active, .simple_form input[type=text]:focus,
 .simple_form input[type=number]:active,
@@ -2238,7 +2238,7 @@ code {
 .simple_form textarea:active,
 .simple_form textarea:focus {
   border-color: #3c6da2;
-  background: rgb(255, 243, 218);
+  background: rgb(255, 238, 218);
 }
 .simple_form input[type=text]:focus:invalid:not(:-moz-placeholder-shown), .simple_form input[type=text]:required:invalid:not(:-moz-placeholder-shown), .simple_form input[type=number]:focus:invalid:not(:-moz-placeholder-shown), .simple_form input[type=number]:required:invalid:not(:-moz-placeholder-shown), .simple_form input[type=email]:focus:invalid:not(:-moz-placeholder-shown), .simple_form input[type=email]:required:invalid:not(:-moz-placeholder-shown), .simple_form input[type=password]:focus:invalid:not(:-moz-placeholder-shown), .simple_form input[type=password]:required:invalid:not(:-moz-placeholder-shown) {
   border-color: rgb(162, 76, 82);
@@ -2354,8 +2354,8 @@ code {
   outline: 0;
   font-family: inherit;
   resize: vertical;
-  background: rgb(255, 249, 224) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14.933 18.467' height='19.698' width='15.929'><path d='M3.467 14.967l-3.393-3.5H14.86l-3.392 3.5c-1.866 1.925-3.666 3.5-4 3.5-.335 0-2.135-1.575-4-3.5zm.266-11.234L7.467 0 11.2 3.733l3.733 3.734H0l3.733-3.734z' fill='%23D6C0A7'/></svg>") no-repeat right 8px center/auto 16px;
-  border: 1px solid rgb(255, 255, 234);
+  background: rgb(255, 240, 224) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14.933 18.467' height='19.698' width='15.929'><path d='M3.467 14.967l-3.393-3.5H14.86l-3.392 3.5c-1.866 1.925-3.666 3.5-4 3.5-.335 0-2.135-1.575-4-3.5zm.266-11.234L7.467 0 11.2 3.733l3.733 3.734H0l3.733-3.734z' fill='%23D6C0A7'/></svg>") no-repeat right 8px center/auto 16px;
+  border: 1px solid rgb(255, 245, 234);
   border-radius: 4px;
   padding-left: 10px;
   padding-right: 30px;
@@ -2390,7 +2390,7 @@ code {
   right: 0;
   bottom: 1px;
   width: 5px;
-  background-image: linear-gradient(to right, rgba(255, 249, 224, 0), rgb(255, 249, 224));
+  background-image: linear-gradient(to right, rgba(255, 240, 224, 0), rgb(255, 240, 224));
 }
 .simple_form__overlay-area {
   position: relative;
@@ -2778,8 +2778,8 @@ code {
 }
 
 .input-copy {
-  background: rgb(255, 249, 224);
-  border: 1px solid rgb(255, 255, 234);
+  background: rgb(255, 240, 224);
+  border: 1px solid rgb(255, 245, 234);
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -2894,7 +2894,7 @@ code {
 .card__img {
   height: 130px;
   position: relative;
-  background: rgb(255, 254, 229);
+  background: rgb(255, 243, 229);
   border-radius: 4px 4px 0 0;
 }
 .card__img img {
@@ -2942,7 +2942,7 @@ code {
   display: block;
   margin: 0;
   border-radius: 4px;
-  background: rgb(255, 243, 218);
+  background: rgb(255, 238, 218);
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -3165,7 +3165,7 @@ code {
   width: 120px;
   flex: 0 0 auto;
   color: #534432;
-  background: rgba(255, 243, 218, 0.5);
+  background: rgba(255, 238, 218, 0.5);
 }
 .account__header__fields dd {
   flex: 1 1 auto;
@@ -4752,7 +4752,7 @@ button.icon-button.disabled i.fa-retweet, button.icon-button.disabled:hover i.fa
   pointer-events: none;
 }
 .detailed-status.context-referenced::before {
-  border-left: 4px solid rgb(255, 212, 127);
+  border-left: 4px solid rgb(255, 204, 127);
 }
 .detailed-status.referenced::before {
   border-left: 4px solid #d9a14c;
@@ -5558,7 +5558,7 @@ a.account__display-name:hover strong {
 }
 
 .tabs-bar__wrapper {
-  background: rgb(255, 243, 218);
+  background: rgb(255, 238, 218);
   position: sticky;
   top: 0;
   z-index: 2;
@@ -6058,7 +6058,7 @@ a.account__display-name:hover strong {
 }
 
 .column-link--transparent .icon-with-badge__badge {
-  border-color: rgb(255, 243, 218);
+  border-color: rgb(255, 238, 218);
 }
 
 .column-title {
@@ -6397,7 +6397,7 @@ a.account__display-name:hover strong {
 }
 
 .react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track {
-  background-color: rgb(255, 249, 224);
+  background-color: rgb(255, 240, 224);
 }
 
 .react-toggle--checked .react-toggle-track {
@@ -9041,7 +9041,7 @@ a.status-card.compact:hover {
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
-  background: rgb(255, 243, 218);
+  background: rgb(255, 238, 218);
   border-radius: 4px;
   padding-bottom: 44px;
   direction: ltr;
@@ -9380,7 +9380,7 @@ a.status-card.compact:hover {
 .directory__card__img {
   height: 125px;
   position: relative;
-  background: var(--theme-color, rgb(255, 254, 229));
+  background: var(--theme-color, rgb(255, 243, 229));
   overflow: hidden;
 }
 .directory__card__img img {
@@ -9422,7 +9422,7 @@ a.status-card.compact:hover {
   display: block;
   margin: 0;
   border-radius: 4px;
-  background: rgb(255, 243, 218);
+  background: rgb(255, 238, 218);
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -9501,7 +9501,7 @@ a.status-card.compact:hover {
 .group__detail__img {
   height: 125px;
   position: relative;
-  background: rgb(255, 254, 229);
+  background: rgb(255, 243, 229);
   overflow: hidden;
 }
 .group__detail__img img {
@@ -9542,7 +9542,7 @@ a.status-card.compact:hover {
   display: block;
   margin: 0;
   border-radius: 4px;
-  background: rgb(255, 243, 218);
+  background: rgb(255, 238, 218);
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -9768,7 +9768,7 @@ a.status-card.compact:hover {
 .detailed-status__section-headline.directory__section-headline button.active::after,
 .status-reactioned__section-headline.directory__section-headline a.active::after,
 .status-reactioned__section-headline.directory__section-headline button.active::after {
-  border-color: transparent transparent rgb(255, 241, 216);
+  border-color: transparent transparent rgb(255, 237, 216);
 }
 .notification__filter-bar__short-label,
 .account__section-headline__short-label,
@@ -10443,7 +10443,7 @@ noscript div a:hover {
   margin-left: -2px;
 }
 .account__header__bar .avatar .account__avatar {
-  background: rgb(255, 243, 218);
+  background: rgb(255, 238, 218);
   border: 2px solid rgb(235, 213, 188);
 }
 .account__header__tabs {
@@ -11012,7 +11012,7 @@ noscript div a:hover {
 .notification.status__wrapper-context-referenced::before,
 .status__wrapper.status__wrapper-context-referenced::before,
 .mini-status__wrapper.status__wrapper-context-referenced::before {
-  border-left: 4px solid rgb(255, 212, 127);
+  border-left: 4px solid rgb(255, 204, 127);
 }
 .notification.status__wrapper-referenced::before,
 .status__wrapper.status__wrapper-referenced::before,
@@ -11563,7 +11563,7 @@ noscript div a:hover {
   color: #534432;
 }
 .muted .poll__chart {
-  background: rgba(255, 186, 141, 0.2);
+  background: rgba(255, 180, 141, 0.2);
 }
 .muted .poll__chart.leading {
   background: rgba(60, 109, 162, 0.2);
@@ -11687,7 +11687,7 @@ noscript div a:hover {
   }
 }
 .introduction__pager {
-  background: rgb(255, 243, 218);
+  background: rgb(255, 238, 218);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
@@ -11767,7 +11767,7 @@ noscript div a:hover {
 }
 .introduction__text p code {
   display: inline-block;
-  background: rgb(255, 243, 218);
+  background: rgb(255, 238, 218);
   font-size: 15px;
   border: 1px solid rgb(225, 203, 178);
   border-radius: 2px;
@@ -12127,7 +12127,7 @@ noscript div a:hover {
 }
 .rich-formatting code {
   font-size: 0.85em;
-  background: rgb(255, 243, 218);
+  background: rgb(255, 238, 218);
   border-radius: 4px;
   padding: 0.2em 0.3em;
 }
@@ -12288,7 +12288,7 @@ noscript div a:hover {
   position: absolute;
   width: 280px;
   box-sizing: border-box;
-  background: rgb(255, 243, 218);
+  background: rgb(255, 238, 218);
   padding: 20px;
   padding-top: 10px;
   border-radius: 4px 4px 0 0;
@@ -12827,7 +12827,7 @@ noscript div a:hover {
 
 .rules-list {
   background: rgb(250, 228, 203);
-  border: 1px solid rgb(255, 243, 218);
+  border: 1px solid rgb(255, 238, 218);
   border-radius: 4px;
   padding: 0.5em 2.5em !important;
   margin-top: 1.85em !important;
@@ -12916,16 +12916,16 @@ noscript div a:hover {
 }
 .table.batch-table > thead > tr > th {
   background: #f5dfc6;
-  border-top: 1px solid rgb(255, 243, 218);
-  border-bottom: 1px solid rgb(255, 243, 218);
+  border-top: 1px solid rgb(255, 238, 218);
+  border-bottom: 1px solid rgb(255, 238, 218);
 }
 .table.batch-table > thead > tr > th:first-child {
   border-radius: 4px 0 0;
-  border-left: 1px solid rgb(255, 243, 218);
+  border-left: 1px solid rgb(255, 238, 218);
 }
 .table.batch-table > thead > tr > th:last-child {
   border-radius: 0 4px 0 0;
-  border-right: 1px solid rgb(255, 243, 218);
+  border-right: 1px solid rgb(255, 238, 218);
 }
 .table--invites tbody td {
   vertical-align: middle;
@@ -12971,7 +12971,7 @@ a.table-action-link:first-child {
 button.table-action-link:disabled, button.table-action-link:disabled:hover,
 a.table-action-link:disabled,
 a.table-action-link:disabled:hover {
-  color: rgb(255, 227, 182);
+  color: rgb(255, 207, 182);
   cursor: default;
 }
 
@@ -13000,7 +13000,7 @@ a.table-action-link:disabled:hover {
   flex: 1 1 auto;
 }
 .batch-table__toolbar {
-  border: 1px solid rgb(255, 243, 218);
+  border: 1px solid rgb(255, 238, 218);
   background: #f5dfc6;
   border-radius: 4px 0 0;
   height: 47px;
@@ -13012,7 +13012,7 @@ a.table-action-link:disabled:hover {
 }
 .batch-table__form {
   padding: 16px;
-  border: 1px solid rgb(255, 243, 218);
+  border: 1px solid rgb(255, 238, 218);
   border-top: 0;
   background: #f5dfc6;
 }
@@ -13021,13 +13021,13 @@ a.table-action-link:disabled:hover {
   margin-bottom: 10px;
 }
 .batch-table__row {
-  border: 1px solid rgb(255, 243, 218);
+  border: 1px solid rgb(255, 238, 218);
   border-top: 0;
   background: rgb(255, 233, 208);
 }
 @media screen and (max-width: 415px) {
   .optional .batch-table__row:first-child {
-    border-top: 1px solid rgb(255, 243, 218);
+    border-top: 1px solid rgb(255, 238, 218);
   }
 }
 .batch-table__row:hover {
@@ -13040,16 +13040,16 @@ a.table-action-link:disabled:hover {
   background: rgb(240, 218, 193);
 }
 .batch-table__row--expired {
-  background: rgb(255, 255, 220);
+  background: rgb(255, 232, 220);
 }
 .batch-table__row--expired:hover {
-  background: rgb(255, 255, 215);
+  background: rgb(255, 228, 215);
 }
 .batch-table__row--expired:nth-child(even) {
-  background: rgb(255, 252, 210);
+  background: rgb(255, 225, 210);
 }
 .batch-table__row--expired:nth-child(even):hover {
-  background: rgb(255, 246, 204);
+  background: rgb(255, 222, 204);
 }
 .batch-table__row__content {
   padding-top: 12px;
@@ -13106,13 +13106,13 @@ a.table-action-link:disabled:hover {
   font-weight: 700;
 }
 .batch-table .nothing-here {
-  border: 1px solid rgb(255, 243, 218);
+  border: 1px solid rgb(255, 238, 218);
   border-top: 0;
   box-shadow: none;
 }
 @media screen and (max-width: 415px) {
   .batch-table .nothing-here {
-    border-top: 1px solid rgb(255, 243, 218);
+    border-top: 1px solid rgb(255, 238, 218);
   }
 }
 @media screen and (max-width: 870px) {
@@ -13212,7 +13212,7 @@ a.table-action-link:disabled:hover {
 }
 .admin-wrapper .sidebar ul a:hover {
   color: #000000;
-  background-color: rgb(255, 236, 211);
+  background-color: rgb(255, 234, 211);
   transition: all 100ms linear;
   transition-property: color, background-color;
 }
@@ -14314,10 +14314,10 @@ body.rtl .simple_form .label_input__append {
 body.rtl .simple_form .label_input__append::after {
   right: auto;
   left: 0;
-  background-image: linear-gradient(to left, rgba(255, 249, 224, 0), rgb(255, 249, 224));
+  background-image: linear-gradient(to left, rgba(255, 240, 224, 0), rgb(255, 240, 224));
 }
 body.rtl .simple_form select {
-  background: rgb(255, 249, 224) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14.933 18.467' height='19.698' width='15.929'><path d='M3.467 14.967l-3.393-3.5H14.86l-3.392 3.5c-1.866 1.925-3.666 3.5-4 3.5-.335 0-2.135-1.575-4-3.5zm.266-11.234L7.467 0 11.2 3.733l3.733 3.734H0l3.733-3.734z' fill='%23D6C0A7'/></svg>") no-repeat left 8px center/auto 16px;
+  background: rgb(255, 240, 224) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14.933 18.467' height='19.698' width='15.929'><path d='M3.467 14.967l-3.393-3.5H14.86l-3.392 3.5c-1.866 1.925-3.666 3.5-4 3.5-.335 0-2.135-1.575-4-3.5zm.266-11.234L7.467 0 11.2 3.733l3.733 3.734H0l3.733-3.734z' fill='%23D6C0A7'/></svg>") no-repeat left 8px center/auto 16px;
 }
 body.rtl .table th,
 body.rtl .table td {
@@ -14573,7 +14573,7 @@ html {
 .column-inline-form,
 .error-column,
 .regeneration-indicator {
-  background: #fffcf7;
+  background: #fffbf7;
   border: 1px solid rgb(225, 203, 178);
   border-top: 0;
 }
@@ -14584,7 +14584,7 @@ html {
 
 .filter-form,
 .directory__card__bar {
-  background: #fffcf7;
+  background: #fffbf7;
   border-bottom: 1px solid rgb(225, 203, 178);
 }
 
@@ -14601,7 +14601,7 @@ html {
 
 .column-back-button,
 .column-header {
-  background: rgb(255, 241, 216);
+  background: rgb(255, 237, 216);
   border: 1px solid rgb(225, 203, 178);
 }
 @media screen and (max-width: 415px) {
@@ -14620,18 +14620,18 @@ html {
 .column-header__button,
 .column-header__button.active,
 .status-reactioned__back-to-post-button {
-  background: rgb(255, 241, 216);
+  background: rgb(255, 237, 216);
 }
 
 .account__header__bar,
 .directory__card__bar,
 .directory__card__extra {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 
 .public-layout .directory__card,
 .columns-area--mobile .directory__card {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 
 .column-header__button.active {
@@ -14639,7 +14639,7 @@ html {
 }
 .column-header__button.active:hover, .column-header__button.active:active, .column-header__button.active:focus {
   color: #3c6da2;
-  background: rgb(255, 241, 216);
+  background: rgb(255, 237, 216);
 }
 
 .account__header__bar .avatar .account__avatar {
@@ -14685,7 +14685,7 @@ html {
 .scrollable .list-edit-button,
 .scrollable .circle-edit-button,
 .scrollable .circle-delete-button {
-  background: #fffcf7;
+  background: #fffbf7;
   border-bottom: 1px solid rgb(225, 203, 178);
 }
 .getting-started .column-link:hover, .getting-started .column-link:active, .getting-started .column-link:focus,
@@ -14768,7 +14768,7 @@ html {
 
 .compose-form .compose-form__datetime-wrapper .datetime__schedule .datetime-dropdown .datetime-dropdown__input-invalid,
 .compose-form .compose-form__datetime-wrapper .datetime__expire .datetime-dropdown .datetime-dropdown__input-invalid {
-  background-color: rgb(255, 196, 202);
+  background-color: rgb(255, 196, 200);
 }
 
 .compose-form .compose-form__datetime-wrapper select,
@@ -14797,16 +14797,16 @@ html {
 
 .drawer__header,
 .drawer__inner {
-  background: rgb(255, 241, 216);
+  background: rgb(255, 237, 216);
   border: 1px solid rgb(225, 203, 178);
 }
 
 .drawer__inner__mastodon {
-  background: rgb(255, 241, 216) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.80078 31.757813" width="234.80078" height="31.757812"><path d="M19.599609 0c-1.05 0-2.10039.375-2.90039 1.125L0 16.925781v14.832031h234.80078V17.025391l-16.5-15.900391c-1.6-1.5-4.20078-1.5-5.80078 0l-13.80078 13.099609c-1.6 1.5-4.19883 1.5-5.79883 0L179.09961 1.125c-1.6-1.5-4.19883-1.5-5.79883 0L159.5 14.224609c-1.6 1.5-4.20078 1.5-5.80078 0L139.90039 1.125c-1.6-1.5-4.20078-1.5-5.80078 0l-13.79883 13.099609c-1.6 1.5-4.20078 1.5-5.80078 0L100.69922 1.125c-1.600001-1.5-4.198829-1.5-5.798829 0l-13.59961 13.099609c-1.6 1.5-4.200781 1.5-5.800781 0L61.699219 1.125c-1.6-1.5-4.198828-1.5-5.798828 0L42.099609 14.224609c-1.6 1.5-4.198828 1.5-5.798828 0L22.5 1.125C21.7.375 20.649609 0 19.599609 0z" fill="%23F5DFC6"/></svg>') no-repeat bottom/100% auto;
+  background: rgb(255, 237, 216) url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.80078 31.757813" width="234.80078" height="31.757812"><path d="M19.599609 0c-1.05 0-2.10039.375-2.90039 1.125L0 16.925781v14.832031h234.80078V17.025391l-16.5-15.900391c-1.6-1.5-4.20078-1.5-5.80078 0l-13.80078 13.099609c-1.6 1.5-4.19883 1.5-5.79883 0L179.09961 1.125c-1.6-1.5-4.19883-1.5-5.79883 0L159.5 14.224609c-1.6 1.5-4.20078 1.5-5.80078 0L139.90039 1.125c-1.6-1.5-4.20078-1.5-5.80078 0l-13.79883 13.099609c-1.6 1.5-4.20078 1.5-5.80078 0L100.69922 1.125c-1.600001-1.5-4.198829-1.5-5.798829 0l-13.59961 13.099609c-1.6 1.5-4.200781 1.5-5.800781 0L61.699219 1.125c-1.6-1.5-4.198828-1.5-5.798828 0L42.099609 14.224609c-1.6 1.5-4.198828 1.5-5.798828 0L22.5 1.125C21.7.375 20.649609 0 19.599609 0z" fill="%23F5DFC6"/></svg>') no-repeat bottom/100% auto;
 }
 
 .compose-form .compose-form__modifiers {
-  background-color: #fffcf7;
+  background-color: #fffbf7;
 }
 .compose-form .compose-form__modifiers .compose-form__upload__actions .icon-button {
   color: rgb(237, 237, 237);
@@ -14824,13 +14824,13 @@ html {
   color: rgb(237, 237, 237);
 }
 .compose-form .compose-form__buttons-wrapper {
-  background: rgb(255, 238, 213);
+  background: rgb(255, 235, 213);
 }
 .compose-form .autosuggest-textarea__textarea {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 .compose-form .autosuggest-textarea__suggestions {
-  background: rgb(255, 238, 213);
+  background: rgb(255, 235, 213);
 }
 .compose-form .autosuggest-textarea__suggestions__item:hover, .compose-form .autosuggest-textarea__suggestions__item:focus, .compose-form .autosuggest-textarea__suggestions__item:active, .compose-form .autosuggest-textarea__suggestions__item.selected {
   background: rgb(235, 213, 188);
@@ -14838,19 +14838,19 @@ html {
 
 .emoji-picker-dropdown__menu,
 .dropdown-menu.dropdown-menu-reaction {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 
 .emoji-mart-bar {
   border-color: rgb(235, 213, 188);
 }
 .emoji-mart-bar:first-child {
-  background: rgb(255, 238, 213);
+  background: rgb(255, 235, 213);
 }
 
 .emoji-mart-search,
 .emoji-mart-scroll {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 
 .emoji-mart-search input {
@@ -14859,7 +14859,7 @@ html {
 }
 
 .emoji-mart-category-label span {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 
 .focusable:focus {
@@ -14868,7 +14868,7 @@ html {
 
 .detailed-status,
 .detailed-status__action-bar {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 
 .reply-indicator__content .status__content__spoiler-link,
@@ -14894,39 +14894,39 @@ html {
 }
 
 .dropdown-menu {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 .dropdown-menu__arrow.left {
-  border-left-color: #fffcf7;
+  border-left-color: #fffbf7;
 }
 .dropdown-menu__arrow.top {
-  border-top-color: #fffcf7;
+  border-top-color: #fffbf7;
 }
 .dropdown-menu__arrow.bottom {
-  border-bottom-color: #fffcf7;
+  border-bottom-color: #fffbf7;
 }
 .dropdown-menu__arrow.right {
-  border-right-color: #fffcf7;
+  border-right-color: #fffbf7;
 }
 .dropdown-menu__item a {
-  background: #fffcf7;
+  background: #fffbf7;
   color: #534432;
 }
 
 .account-popup.dropdown-menu {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 .account-popup__arrow.dropdown-menu__arrow.left {
-  border-left-color: #fffcf7;
+  border-left-color: #fffbf7;
 }
 .account-popup__arrow.dropdown-menu__arrow.top {
-  border-top-color: #fffcf7;
+  border-top-color: #fffbf7;
 }
 .account-popup__arrow.dropdown-menu__arrow.bottom {
-  border-bottom-color: #fffcf7;
+  border-bottom-color: #fffbf7;
 }
 .account-popup__arrow.dropdown-menu__arrow.right {
-  border-right-color: #fffcf7;
+  border-right-color: #fffbf7;
 }
 
 .privacy-dropdown__option.active,
@@ -14972,12 +14972,12 @@ html {
 .announcements,
 .picture-in-picture__header,
 .picture-in-picture__footer {
-  background: #fffcf7;
+  background: #fffbf7;
   border: 1px solid rgb(225, 203, 178);
 }
 
 .reactions-bar__item {
-  background: rgb(255, 241, 216);
+  background: rgb(255, 237, 216);
   border: 1px solid rgb(225, 203, 178);
 }
 
@@ -14985,7 +14985,7 @@ html {
   border: 1px solid rgb(225, 203, 178);
 }
 .confirmation-modal__passphrase .passphrase__input.invalid {
-  background-color: rgb(255, 196, 202);
+  background-color: rgb(255, 196, 200);
 }
 
 .reactions-bar__item:hover:enabled, .reactions-bar__item:focus:enabled, .reactions-bar__item:active:enabled {
@@ -15040,7 +15040,7 @@ html {
 .block-modal__action-bar,
 .onboarding-modal__paginator,
 .error-modal__footer {
-  background: rgb(255, 238, 213);
+  background: rgb(255, 235, 213);
 }
 .boost-modal__action-bar .onboarding-modal__nav:hover, .boost-modal__action-bar .onboarding-modal__nav:focus, .boost-modal__action-bar .onboarding-modal__nav:active,
 .boost-modal__action-bar .error-modal__nav:hover,
@@ -15076,20 +15076,20 @@ html {
 .error-modal__footer .error-modal__nav:hover,
 .error-modal__footer .error-modal__nav:focus,
 .error-modal__footer .error-modal__nav:active {
-  background-color: rgb(255, 254, 229);
+  background-color: rgb(255, 243, 229);
 }
 
 .display-case__case {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 
 .embed-modal .embed-modal__container .embed-modal__html {
-  background: #fffcf7;
+  background: #fffbf7;
   border: 1px solid rgb(225, 203, 178);
 }
 .embed-modal .embed-modal__container .embed-modal__html:focus {
   border-color: rgb(214, 192, 167);
-  background: #fffcf7;
+  background: #fffbf7;
 }
 
 .react-toggle-track {
@@ -15107,11 +15107,11 @@ html {
 .empty-column-indicator,
 .error-column {
   color: #000000;
-  background: #fffcf7;
+  background: #fffbf7;
 }
 
 .tabs-bar {
-  background: rgb(255, 241, 216);
+  background: rgb(255, 237, 216);
   border: 1px solid rgb(225, 203, 178);
   border-bottom: 0;
 }
@@ -15147,7 +15147,7 @@ html {
 .contact-widget,
 .landing .hero-widget__text,
 .landing-page__information.contact-widget {
-  background: #fffcf7;
+  background: #fffbf7;
   border: 1px solid rgb(225, 203, 178);
 }
 @media screen and (max-width: 415px) {
@@ -15180,7 +15180,7 @@ html {
 }
 
 .landing .hero-widget__footer {
-  background: #fffcf7;
+  background: #fffbf7;
   border: 1px solid rgb(225, 203, 178);
   border-top: 0;
 }
@@ -15191,11 +15191,11 @@ html {
 }
 
 .landing .hero-widget__text, .landing .hero-widget__footer {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 
 .picture-in-picture-placeholder {
-  background: rgb(255, 241, 216);
+  background: rgb(255, 237, 216);
   border-color: rgb(225, 203, 178);
   color: rgb(225, 203, 178);
 }
@@ -15241,16 +15241,16 @@ html {
   border-color: rgb(225, 203, 178);
 }
 .batch-table__row--expired {
-  background: rgb(255, 198, 156);
+  background: rgb(255, 189, 156);
 }
 .batch-table__row--expired:hover {
-  background: rgb(255, 193, 151);
+  background: rgb(255, 186, 151);
 }
 .batch-table__row--expired:nth-child(even) {
-  background: rgb(255, 188, 146);
+  background: rgb(255, 183, 146);
 }
 .batch-table__row--expired:nth-child(even):hover {
-  background: rgb(255, 183, 141);
+  background: rgb(255, 179, 141);
 }
 
 .activity-stream {
@@ -15260,7 +15260,7 @@ html {
   border-top: 0;
 }
 .activity-stream .entry {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 .activity-stream .entry .detailed-status.light,
 .activity-stream .entry .more.light,
@@ -15334,7 +15334,7 @@ html {
 }
 
 .statuses-grid .detailed-status {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 
 .status__content a,
@@ -15374,7 +15374,7 @@ button.icon-button:disabled i.fa-retweet, button.icon-button:disabled:hover i.fa
 }
 .public-layout .public-account-bio,
 .public-layout .hero-widget__text {
-  background: #fffcf7;
+  background: #fffbf7;
 }
 .public-layout .header {
   background: #f5dfc6;
@@ -15429,7 +15429,7 @@ button.icon-button:disabled i.fa-retweet, button.icon-button:disabled:hover i.fa
 .notification__filter-bar button.active::after,
 .account__section-headline a.active::after,
 .status__section-headline a.active::after {
-  border-color: transparent transparent #fffcf7;
+  border-color: transparent transparent #fffbf7;
 }
 
 .hero-widget,
