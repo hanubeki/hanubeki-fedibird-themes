@@ -14991,6 +14991,11 @@ html {
   background-color: rgb(255, 196, 200);
 }
 
+.actions-modal .status,
+.reaction-modal .status {
+  background: #fafefd;
+}
+
 .reactions-bar__item:hover:enabled, .reactions-bar__item:focus:enabled, .reactions-bar__item:active:enabled {
   background-color: #d3e6e5;
 }

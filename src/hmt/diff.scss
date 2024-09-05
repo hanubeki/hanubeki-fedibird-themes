@@ -460,6 +460,11 @@ html {
   }
 }
 
+.actions-modal .status,
+.reaction-modal .status {
+  background: mix($white, darken($ui-base-color, 7%), 80%);
+}
+
 .reactions-bar__item {
   &:hover:enabled,
   &:focus:enabled,
