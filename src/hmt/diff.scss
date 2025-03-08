@@ -343,22 +343,8 @@ html {
 .dropdown-menu {
   background: mix($white, darken($ui-base-color, 7%), 80%);
 
-  &__arrow {
-    &.left {
-      border-left-color: mix($white, darken($ui-base-color, 7%), 80%);
-    }
-
-    &.top {
-      border-top-color: mix($white, darken($ui-base-color, 7%), 80%);
-    }
-
-    &.bottom {
-      border-bottom-color: mix($white, darken($ui-base-color, 7%), 80%);
-    }
-
-    &.right {
-      border-right-color: mix($white, darken($ui-base-color, 7%), 80%);
-    }
+  &__arrow::before {
+    background-color: mix($white, darken($ui-base-color, 7%), 80%);
   }
 
   &__item {
