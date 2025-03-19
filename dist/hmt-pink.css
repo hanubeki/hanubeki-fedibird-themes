@@ -15400,18 +15400,6 @@ html {
 .account-popup.dropdown-menu {
   background: #fffcfd;
 }
-.account-popup__arrow.dropdown-menu__arrow.left {
-  border-left-color: #fffcfd;
-}
-.account-popup__arrow.dropdown-menu__arrow.top {
-  border-top-color: #fffcfd;
-}
-.account-popup__arrow.dropdown-menu__arrow.bottom {
-  border-bottom-color: #fffcfd;
-}
-.account-popup__arrow.dropdown-menu__arrow.right {
-  border-right-color: #fffcfd;
-}
 .account-popup__display-name__html {
   color: #53424b;
 }

@@ -361,24 +361,6 @@ html {
     background: mix($white, darken($ui-base-color, 7%), 80%);
   }
 
-  &__arrow.dropdown-menu__arrow {
-    &.left {
-      border-left-color: mix($white, darken($ui-base-color, 7%), 80%);
-    }
-  
-    &.top {
-      border-top-color: mix($white, darken($ui-base-color, 7%), 80%);
-    }
-  
-    &.bottom {
-      border-bottom-color: mix($white, darken($ui-base-color, 7%), 80%);
-    }
-  
-    &.right {
-      border-right-color: mix($white, darken($ui-base-color, 7%), 80%);
-    }
-  }
-
   &__display-name__html {
     color: $darker-text-color;
   }
