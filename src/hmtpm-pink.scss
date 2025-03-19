@@ -1,0 +1,11 @@
+/* Theme: hanubeki+モダン (ピンク) */
+@import 'hmt/variables.pink';
+@import 'application';
+@import 'modern/style';
+@import 'hmt/diff';
+@import 'modern/fedibird';
+
+.layout-multiple-columns .column {
+	flex-grow: 1;
+	max-width: 500px;
+}

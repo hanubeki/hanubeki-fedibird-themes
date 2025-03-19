@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Theme: hanubeki (クリーム) */
 @font-face {
   font-family: "mastodon-font-sans-serif";
   src: local("Roboto Italic"), url("../fonts/roboto/roboto-italic-webfont.woff2") format("woff2"), url("../fonts/roboto/roboto-italic-webfont.woff") format("woff"), url("../fonts/roboto/roboto-italic-webfont.ttf") format("truetype"), url("../fonts/roboto/roboto-italic-webfont.svg#roboto-italic-webfont") format("svg");
