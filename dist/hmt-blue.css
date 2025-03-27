@@ -5011,18 +5011,6 @@ body > [data-popper-placement] {
 .account-popup.dropdown-menu {
   background: #ffffff;
 }
-.account-popup__arrow.dropdown-menu__arrow.left {
-  border-left-color: #ffffff;
-}
-.account-popup__arrow.dropdown-menu__arrow.top {
-  border-top-color: #ffffff;
-}
-.account-popup__arrow.dropdown-menu__arrow.bottom {
-  border-bottom-color: #ffffff;
-}
-.account-popup__arrow.dropdown-menu__arrow.right {
-  border-right-color: #ffffff;
-}
 .account-popup__wapper {
   padding: 2px 6px;
   white-space: nowrap;

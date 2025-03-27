@@ -1,0 +1,78 @@
+
+/*
+  2025-03-21 21:52更新
+  Fedibirdの「モダン」テーマはウィンドウ幅が狭い時の表示がイマイチなので調整しました。
+  ついでに以下の調整も行っています。
+  ・グループカラムの折り畳み部分の修正
+  ・引用投稿のメディアの表示位置の修正
+  ・上級者UIのナビゲーションの調整
+  Windows 11 + Vivaldi 7.2 + Stylus、Android 13 + Android System Webview 134 + Hermit 28.0.0で動作確認しています。
+*/
+
+.layout-single-column {
+  /* 投稿ボタンの位置を調整 */
+  #mastodon .floating-action-button {
+    bottom: calc(env(safe-area-inset-bottom) + 1.3125rem + 70px);
+  }
+
+  /* タブバーがスクロールできないのを修正 */
+  :is(#mastodon, .public-layout) .tabs-bar {
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
+  }
+
+  /* 「タブバーを下に配置する」がオンの場合のレイアウトを調整 */
+  @media (max-width: 895px) {
+    :is(#mastodon, .public-layout) .tabs-bar__wrapper .tabs-bar.bottom-bar {
+      width: 100%;
+      position: unset;
+    }
+      
+    :is(#mastodon, .public-layout) #tabs-bar__portal,
+    :is(#mastodon, .public-layout) .column-header__wrapper.active  {
+      border: 0;
+      border-radius: var(--radius);
+    }
+  }
+
+  /* タブバーの各項目のpaddingを調整 */
+  :is(#mastodon, .public-layout) .tabs-bar__wrapper .tabs-bar a {
+    padding-block: 10px;
+  }
+
+  /* タブバーのメニューボタンの位置を調整 */
+  .tabs-bar :is(.tabs-bar__external-link, .tabs-bar__link).hamburger.short-label i {
+    margin: 10px;
+  }
+
+  @media (max-width: 895px) {
+   .is-composing .columns-area__panels__main {
+      padding-bottom: 0 !important;
+    }
+  }
+}
+
+.layout-multiple-columns {
+  /* 上級者UIのナビゲーションのpaddingを調整 */
+  :is(#mastodon, .public-layout) .columns-area__panels__pane__inner {
+    margin-top: 0;
+  }
+
+  :is(#mastodon, .public-layout) .navigation-panel {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: calc(100% - 10px);
+  }
+}
+
+/* グループカラム等の折り畳み部分の高さを修正 */
+:is(#mastodon, .public-layout) .column-header__collapsible {
+  flex: 0 0 auto;
+}  
+
+/* 引用投稿のメディアの位置とpaddingを修正 */
+:is(#mastodon, .public-layout) .quote-status :is(.media-gallery, .video-player.inline) {
+  left: 5%;
+  margin-left: 0 !important;
+  padding: 0;
+}
