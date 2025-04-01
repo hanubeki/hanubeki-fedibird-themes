@@ -17151,6 +17151,78 @@ div.quote-status > div > div.media-gallery {
   padding: 0;
 }
 
+#mastodon .status__action-bar,
+.public-layout .status__action-bar {
+  margin-left: -62px;
+}
+body.rtl #mastodon .status__action-bar,
+body.rtl .public-layout .status__action-bar {
+  margin-left: unset;
+  margin-right: -62px;
+}
+
+#mastodon .detailed-status__action-bar,
+.public-layout .detailed-status__action-bar {
+  margin-left: auto;
+}
+
+#mastodon .status__action-bar .icon-button,
+.public-layout .status__action-bar .icon-button,
+#mastodon .detailed-status__action-bar .icon-button,
+.public-layout .detailed-status__action-bar .icon-button {
+  display: flex;
+  padding: 0.3em 0.1em !important;
+  height: inherit !important;
+  flex: 1 0 auto !important;
+}
+
+#mastodon .media-gallery,
+.public-layout .media-gallery,
+#mastodon .video-player,
+.public-layout .video-player {
+  margin-left: -62px;
+}
+body.rtl #mastodon .media-gallery,
+body.rtl .public-layout .media-gallery,
+body.rtl #mastodon .video-player,
+body.rtl .public-layout .video-player {
+  margin-left: unset;
+  margin-right: -62px;
+}
+
+#mastodon .status,
+.public-layout .status {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  padding-inline-start: 78px !important;
+  padding-inline-end: 15px !important;
+}
+.follow-button-on-timeline #mastodon .status .status__content,
+.follow-button-on-timeline .public-layout .status .status__content {
+  min-height: 39px;
+}
+
+:is(#mastodon, .public-layout) .quote-status :is(.media-gallery, .video-player.inline) {
+  left: 5%;
+  margin-left: 0 !important;
+  padding: 0;
+}
+body.rtl :is(#mastodon, .public-layout) .quote-status :is(.media-gallery, .video-player.inline) {
+  left: auto;
+  right: 5%;
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+#mastodon .detailed-status__action-bar,
+.public-layout .detailed-status__action-bar {
+  padding-top: 10px;
+}
+
+.status__expand {
+  height: calc(100% - 55px);
+}
+
 .layout-multiple-columns .column {
   flex-grow: 1;
   max-width: 500px;
