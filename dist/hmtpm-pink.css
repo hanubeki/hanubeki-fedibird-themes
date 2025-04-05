@@ -15922,7 +15922,7 @@ body.rtl .simple_form .beta_features.float {
   .public-layout .tabs-bar__wrapper .tabs-bar a::before {
     content: "";
     position: absolute;
-    bottom: -10px;
+    bottom: calc(-10px - env(safe-area-inset-bottom));
     width: 5px;
     height: 10px;
     border-radius: 100px;
@@ -15946,7 +15946,7 @@ body.rtl .simple_form .beta_features.float {
   }
   #mastodon .tabs-bar__wrapper .tabs-bar a.active::before,
   .public-layout .tabs-bar__wrapper .tabs-bar a.active::before {
-    bottom: -6px;
+    bottom: calc(-6px - env(safe-area-inset-bottom));
     width: 10px;
     margin-left: -5px;
   }
@@ -17111,6 +17111,7 @@ div.quote-status > div > div.media-gallery {
   .layout-single-column :is(#mastodon, .public-layout) .tabs-bar__wrapper .tabs-bar.bottom-bar {
     width: 100%;
     position: unset;
+    padding-bottom: env(safe-area-inset-bottom);
   }
   .layout-single-column :is(#mastodon, .public-layout) #tabs-bar__portal,
   .layout-single-column :is(#mastodon, .public-layout) .column-header__wrapper.active {
@@ -17154,10 +17155,14 @@ div.quote-status > div > div.media-gallery {
   padding: 0;
 }
 
-:is(#mastodon, .public-layout) .status__action-bar {
+.v4 :is(#mastodon, .public-layout) .status__action-bar,
+.v4 :is(#mastodon, .public-layout) :is(.media-gallery, .video-player),
+.v4 .status .emoji-reactions-bar.reactions-bar {
   margin-left: -62px;
 }
-body.rtl :is(#mastodon, .public-layout) .status__action-bar {
+body.rtl .v4 :is(#mastodon, .public-layout) .status__action-bar,
+body.rtl .v4 :is(#mastodon, .public-layout) :is(.media-gallery, .video-player),
+body.rtl .v4 .status .emoji-reactions-bar.reactions-bar {
   margin-left: unset;
   margin-right: -62px;
 }
@@ -17173,14 +17178,6 @@ body.rtl :is(#mastodon, .public-layout) .status__action-bar {
   flex: 1 0 auto !important;
 }
 
-:is(#mastodon, .public-layout) :is(.media-gallery, .video-player) {
-  margin-left: -62px;
-}
-body.rtl :is(#mastodon, .public-layout) :is(.media-gallery, .video-player) {
-  margin-left: unset;
-  margin-right: -62px;
-}
-
 :is(#mastodon, .public-layout) .status {
   padding: unset !important;
   padding-top: 15px !important;
@@ -17190,6 +17187,26 @@ body.rtl :is(#mastodon, .public-layout) :is(.media-gallery, .video-player) {
 }
 .follow-button-on-timeline :is(#mastodon, .public-layout) .status .status__content {
   min-height: 39px;
+}
+
+:is(#mastodon, .public-layout) .quote-status .display-name {
+  padding-left: 30px;
+}
+body.rtl :is(#mastodon, .public-layout) .quote-status .display-name {
+  padding-left: unset;
+  padding-right: 30px;
+}
+
+:is(#mastodon, .public-layout) .status__info .detailed-status__display-avatar {
+  top: 12px !important;
+}
+
+:is(#mastodon, .public-layout) .status__info :is(.status__avatar, .detailed-status__display-avatar) {
+  left: 15px !important;
+}
+body.rtl :is(#mastodon, .public-layout) .status__info :is(.status__avatar, .detailed-status__display-avatar) {
+  left: auto !important;
+  right: 15px !important;
 }
 
 :is(#mastodon, .public-layout) .quote-status :is(.media-gallery, .video-player.inline) {
@@ -17210,14 +17227,6 @@ body.rtl :is(#mastodon, .public-layout) .quote-status :is(.media-gallery, .video
 
 .status__expand {
   height: calc(100% - 55px);
-}
-
-.status .emoji-reactions-bar.reactions-bar {
-  margin-left: -62px;
-}
-body.rtl .status .emoji-reactions-bar.reactions-bar {
-  margin-left: unset;
-  margin-right: -62px;
 }
 
 .account__action-bar {

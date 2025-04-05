@@ -1,4 +1,3 @@
-
 /*
   2025-03-21 21:52更新
   Fedibirdの「モダン」テーマはウィンドウ幅が狭い時の表示がイマイチなので調整しました。
@@ -26,8 +25,9 @@
     :is(#mastodon, .public-layout) .tabs-bar__wrapper .tabs-bar.bottom-bar {
       width: 100%;
       position: unset;
+      padding-bottom: env(safe-area-inset-bottom);
     }
-      
+
     :is(#mastodon, .public-layout) #tabs-bar__portal,
     :is(#mastodon, .public-layout) .column-header__wrapper.active  {
       border: 0;
@@ -68,7 +68,7 @@
 /* グループカラム等の折り畳み部分の高さを修正 */
 :is(#mastodon, .public-layout) .column-header__collapsible {
   flex: 0 0 auto;
-}  
+}
 
 /* 引用投稿のメディアの位置とpaddingを修正 */
 :is(#mastodon, .public-layout) .quote-status :is(.media-gallery, .video-player.inline) {
