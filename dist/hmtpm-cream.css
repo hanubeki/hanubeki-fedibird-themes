@@ -4598,6 +4598,10 @@ body > [data-popper-placement] {
 .quote-status .display-name {
   padding-left: 20px;
 }
+.quote-status .status__info .status__display-name {
+  padding-left: 0;
+  padding-right: 0;
+}
 .quote-status .detailed-status__display-name {
   margin-bottom: 0px;
 }
@@ -14563,7 +14567,8 @@ body.rtl .notification__avatar-wrapper {
   left: auto;
   right: -58px;
 }
-body.rtl .notification__favourite-icon-wrapper {
+body.rtl .notification__favourite-icon-wrapper,
+body.rtl .notification__reaction-icon-wrapper {
   left: auto;
   right: -26px;
 }
@@ -14660,6 +14665,19 @@ body.rtl .status__prepend-icon-wrapper {
   left: auto;
   right: -26px;
 }
+body.rtl .quote-status .status__info .status__display-name {
+  padding-left: 0;
+  padding-right: 0;
+}
+body.rtl .quote-status .status__avatar,
+body.rtl .quote-status .detailed-status__display-avatar {
+  left: auto;
+  right: 5px;
+}
+body.rtl .quote-status .display-name {
+  padding-left: unset;
+  padding-right: 20px;
+}
 body.rtl .activity-stream .pre-header .pre-header__icon {
   left: auto;
   right: 42px;
@@ -14698,8 +14716,6 @@ body.rtl .status__action-bar__counter .status__action-bar-button {
 }
 body.rtl .status__action-bar-button {
   float: right;
-  margin-right: 0;
-  margin-left: 18px;
 }
 body.rtl .status__action-bar-dropdown {
   float: right;
@@ -16453,9 +16469,6 @@ html {
   color: #534432;
 }
 
-.account-popup.dropdown-menu {
-  background: #fffbf7;
-}
 .account-popup__display-name__html {
   color: #534432;
 }
@@ -16517,11 +16530,6 @@ html {
 }
 .confirmation-modal__passphrase .passphrase__input.invalid {
   background-color: rgb(255, 196, 200);
-}
-
-.actions-modal .status,
-.reaction-modal .status {
-  background: #fffbf7;
 }
 
 .reactions-bar__item:hover:enabled, .reactions-bar__item:focus:enabled, .reactions-bar__item:active:enabled {
@@ -17038,11 +17046,6 @@ div.quote-status > div.status__info > a.status__display-name > div.status__avata
   top: revert !important;
 }
 
-div.status__info:nth-child(1) > a:nth-child(1) > span:nth-child(2),
-div.quote-status > div.status__info > a.status__display-name > .display-name {
-  padding-left: 35px !important; /* 本当は div.status__avatar に left revert; を指定できたほうがいいが、元の css で `15 px !important;` されてしまっているのでこちらの元の padding に +15px する */
-}
-
 /* 引用に含まれるテキストエリアの調整 */
 div.status__content:nth-child(2),
 div.quote-status > div.status__content.status__content--with-action {
@@ -17151,54 +17154,41 @@ div.quote-status > div > div.media-gallery {
   padding: 0;
 }
 
-#mastodon .status__action-bar,
-.public-layout .status__action-bar {
+:is(#mastodon, .public-layout) .status__action-bar {
   margin-left: -62px;
 }
-body.rtl #mastodon .status__action-bar,
-body.rtl .public-layout .status__action-bar {
+body.rtl :is(#mastodon, .public-layout) .status__action-bar {
   margin-left: unset;
   margin-right: -62px;
 }
 
-#mastodon .detailed-status__action-bar,
-.public-layout .detailed-status__action-bar {
+:is(#mastodon, .public-layout) .detailed-status__action-bar {
   margin-left: auto;
 }
 
-#mastodon .status__action-bar .icon-button,
-.public-layout .status__action-bar .icon-button,
-#mastodon .detailed-status__action-bar .icon-button,
-.public-layout .detailed-status__action-bar .icon-button {
+:is(#mastodon, .public-layout) :is(.status__action-bar, .detailed-status__action-bar) .icon-button {
   display: flex;
   padding: 0.3em 0.1em !important;
   height: inherit !important;
   flex: 1 0 auto !important;
 }
 
-#mastodon .media-gallery,
-.public-layout .media-gallery,
-#mastodon .video-player,
-.public-layout .video-player {
+:is(#mastodon, .public-layout) :is(.media-gallery, .video-player) {
   margin-left: -62px;
 }
-body.rtl #mastodon .media-gallery,
-body.rtl .public-layout .media-gallery,
-body.rtl #mastodon .video-player,
-body.rtl .public-layout .video-player {
+body.rtl :is(#mastodon, .public-layout) :is(.media-gallery, .video-player) {
   margin-left: unset;
   margin-right: -62px;
 }
 
-#mastodon .status,
-.public-layout .status {
+:is(#mastodon, .public-layout) .status {
+  padding: unset !important;
   padding-top: 15px !important;
   padding-bottom: 15px !important;
   padding-inline-start: 78px !important;
   padding-inline-end: 15px !important;
 }
-.follow-button-on-timeline #mastodon .status .status__content,
-.follow-button-on-timeline .public-layout .status .status__content {
+.follow-button-on-timeline :is(#mastodon, .public-layout) .status .status__content {
   min-height: 39px;
 }
 
@@ -17214,13 +17204,29 @@ body.rtl :is(#mastodon, .public-layout) .quote-status :is(.media-gallery, .video
   margin-right: 0 !important;
 }
 
-#mastodon .detailed-status__action-bar,
-.public-layout .detailed-status__action-bar {
+:is(#mastodon, .public-layout) .detailed-status__action-bar {
   padding-top: 10px;
 }
 
 .status__expand {
   height: calc(100% - 55px);
+}
+
+.status .emoji-reactions-bar.reactions-bar {
+  margin-left: -62px;
+}
+body.rtl .status .emoji-reactions-bar.reactions-bar {
+  margin-left: unset;
+  margin-right: -62px;
+}
+
+.account__action-bar {
+  top: 65px;
+  left: 15px;
+}
+body.rtl .account__action-bar {
+  left: unset;
+  right: 15px;
 }
 
 .layout-multiple-columns .column {

@@ -4598,6 +4598,10 @@ body > [data-popper-placement] {
 .quote-status .display-name {
   padding-left: 20px;
 }
+.quote-status .status__info .status__display-name {
+  padding-left: 0;
+  padding-right: 0;
+}
 .quote-status .detailed-status__display-name {
   margin-bottom: 0px;
 }
@@ -14563,7 +14567,8 @@ body.rtl .notification__avatar-wrapper {
   left: auto;
   right: -58px;
 }
-body.rtl .notification__favourite-icon-wrapper {
+body.rtl .notification__favourite-icon-wrapper,
+body.rtl .notification__reaction-icon-wrapper {
   left: auto;
   right: -26px;
 }
@@ -14660,6 +14665,19 @@ body.rtl .status__prepend-icon-wrapper {
   left: auto;
   right: -26px;
 }
+body.rtl .quote-status .status__info .status__display-name {
+  padding-left: 0;
+  padding-right: 0;
+}
+body.rtl .quote-status .status__avatar,
+body.rtl .quote-status .detailed-status__display-avatar {
+  left: auto;
+  right: 5px;
+}
+body.rtl .quote-status .display-name {
+  padding-left: unset;
+  padding-right: 20px;
+}
 body.rtl .activity-stream .pre-header .pre-header__icon {
   left: auto;
   right: 42px;
@@ -14698,8 +14716,6 @@ body.rtl .status__action-bar__counter .status__action-bar-button {
 }
 body.rtl .status__action-bar-button {
   float: right;
-  margin-right: 0;
-  margin-left: 18px;
 }
 body.rtl .status__action-bar-dropdown {
   float: right;
@@ -15386,9 +15402,6 @@ html {
   color: #53424b;
 }
 
-.account-popup.dropdown-menu {
-  background: #fffcfd;
-}
 .account-popup__display-name__html {
   color: #53424b;
 }
@@ -15450,11 +15463,6 @@ html {
 }
 .confirmation-modal__passphrase .passphrase__input.invalid {
   background-color: rgb(255, 196, 200);
-}
-
-.actions-modal .status,
-.reaction-modal .status {
-  background: #fffcfd;
 }
 
 .reactions-bar__item:hover:enabled, .reactions-bar__item:focus:enabled, .reactions-bar__item:active:enabled {
