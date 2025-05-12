@@ -17084,9 +17084,19 @@ div.quote-status > div > div.media-gallery {
   width: 90% !important;
 }
 
+/* ==UserStyle==
+@name         Fedibirdの「モダン」テーマに対する調整用userstyles
+@description  Fedibirdの「モダン」テーマはウィンドウ幅が狭い時の表示がイマイチなので調整しました。
+@author       hanubeki (@hanubeki@fedibird.com)
+@namespace    https://github.com/hanubeki
+@homepageURL  https://gist.github.com/hanubeki/238532234ddb10008162bd2093f9dfd1
+@version      0.1.9
+@license      GNU Affero General Public License, version 3
+==/UserStyle== */
 /*
-  2025-03-21 21:52更新
+  2025-04-11 11:06更新
   Fedibirdの「モダン」テーマはウィンドウ幅が狭い時の表示がイマイチなので調整しました。
+  諸事情によりテーマ名での制限を撤廃したため、モダンテーマ以外に適用しないようご注意ください。
   ついでに以下の調整も行っています。
   ・グループカラムの折り畳み部分の修正
   ・引用投稿のメディアの表示位置の修正
@@ -17099,6 +17109,8 @@ div.quote-status > div > div.media-gallery {
   /* 「タブバーを下に配置する」がオンの場合のレイアウトを調整 */
   /* タブバーの各項目のpaddingを調整 */
   /* タブバーのメニューボタンの位置を調整 */
+  /* 「タブバーを下に配置する」がオフの場合に一部コンテンツがタブバーで隠れるのを修正 */
+  /* 検索の「もっと見る」のmarginを調整 */
 }
 .layout-single-column #mastodon .floating-action-button {
   bottom: calc(env(safe-area-inset-bottom) + 1.3125rem + 70px);
@@ -17108,7 +17120,7 @@ div.quote-status > div > div.media-gallery {
   overflow-y: hidden !important;
 }
 @media (max-width: 895px) {
-  .layout-single-column :is(#mastodon, .public-layout) .tabs-bar__wrapper .tabs-bar.bottom-bar {
+  .layout-single-column :is(#mastodon, .public-layout) .tabs-bar__wrapper .tabs-bar {
     width: 100%;
     position: unset;
     padding-bottom: env(safe-area-inset-bottom);
@@ -17120,7 +17132,10 @@ div.quote-status > div > div.media-gallery {
   }
 }
 .layout-single-column :is(#mastodon, .public-layout) .tabs-bar__wrapper .tabs-bar a {
-  padding-block: 10px;
+  padding-block: 20px !important;
+}
+.layout-single-column :is(#mastodon, .public-layout) .tabs-bar__wrapper .tabs-bar a.short-label {
+  padding-block: 10px !important;
 }
 .layout-single-column .tabs-bar :is(.tabs-bar__external-link, .tabs-bar__link).hamburger.short-label i {
   margin: 10px;
@@ -17129,6 +17144,17 @@ div.quote-status > div > div.media-gallery {
   .layout-single-column .is-composing .columns-area__panels__main {
     padding-bottom: 0 !important;
   }
+}
+@media screen and (max-width: 1190px) {
+  .layout-single-column .swipeable-view__wrapper {
+    padding-bottom: calc(env(safe-area-inset-bottom) + 48px);
+  }
+  .is-composing .layout-single-column .swipeable-view__wrapper {
+    padding-bottom: calc(env(safe-area-inset-bottom) + 8px);
+  }
+}
+.layout-single-column .search-results {
+  margin-bottom: calc(var(--radius-round));
 }
 
 .layout-multiple-columns {
@@ -17153,6 +17179,14 @@ div.quote-status > div > div.media-gallery {
   left: 5%;
   margin-left: 0 !important;
   padding: 0;
+}
+
+/* タイムラインの「〇〇さんがブースト」、通知メッセージのmarginを調整 */
+.status__prepend, .notification__message {
+  margin-left: 78px;
+}
+body.rtl .status__prepend, body.rtl .notification__message {
+  margin-right: 78px;
 }
 
 .v4 :is(#mastodon, .public-layout) .status__action-bar,

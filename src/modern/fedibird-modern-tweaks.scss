@@ -1,6 +1,17 @@
+/* ==UserStyle==
+@name         Fedibirdの「モダン」テーマに対する調整用userstyles
+@description  Fedibirdの「モダン」テーマはウィンドウ幅が狭い時の表示がイマイチなので調整しました。
+@author       hanubeki (@hanubeki@fedibird.com)
+@namespace    https://github.com/hanubeki
+@homepageURL  https://gist.github.com/hanubeki/238532234ddb10008162bd2093f9dfd1
+@version      0.1.9
+@license      GNU Affero General Public License, version 3
+==/UserStyle== */
+
 /*
-  2025-03-21 21:52更新
+  2025-04-11 11:06更新
   Fedibirdの「モダン」テーマはウィンドウ幅が狭い時の表示がイマイチなので調整しました。
+  諸事情によりテーマ名での制限を撤廃したため、モダンテーマ以外に適用しないようご注意ください。
   ついでに以下の調整も行っています。
   ・グループカラムの折り畳み部分の修正
   ・引用投稿のメディアの表示位置の修正
@@ -22,7 +33,7 @@
 
   /* 「タブバーを下に配置する」がオンの場合のレイアウトを調整 */
   @media (max-width: 895px) {
-    :is(#mastodon, .public-layout) .tabs-bar__wrapper .tabs-bar.bottom-bar {
+    :is(#mastodon, .public-layout) .tabs-bar__wrapper .tabs-bar {
       width: 100%;
       position: unset;
       padding-bottom: env(safe-area-inset-bottom);
@@ -37,7 +48,11 @@
 
   /* タブバーの各項目のpaddingを調整 */
   :is(#mastodon, .public-layout) .tabs-bar__wrapper .tabs-bar a {
-    padding-block: 10px;
+    padding-block: 20px !important;
+
+    &.short-label {
+      padding-block: 10px !important;
+    }
   }
 
   /* タブバーのメニューボタンの位置を調整 */
@@ -49,6 +64,22 @@
    .is-composing .columns-area__panels__main {
       padding-bottom: 0 !important;
     }
+  }
+
+  /* 「タブバーを下に配置する」がオフの場合に一部コンテンツがタブバーで隠れるのを修正 */
+  @media screen and (max-width: 1190px) {
+    .swipeable-view__wrapper {
+      padding-bottom: calc(env(safe-area-inset-bottom) + 48px);
+
+      .is-composing & {
+        padding-bottom: calc(env(safe-area-inset-bottom) + 8px);
+      }
+    }
+  }
+
+  /* 検索の「もっと見る」のmarginを調整 */
+  .search-results {
+    margin-bottom: calc(var(--radius-round));
   }
 }
 
@@ -75,4 +106,13 @@
   left: 5%;
   margin-left: 0 !important;
   padding: 0;
+}
+
+/* タイムラインの「〇〇さんがブースト」、通知メッセージのmarginを調整 */
+.status__prepend, .notification__message {
+  margin-left: 78px;
+
+  body.rtl & {
+    margin-right: 78px;
+  }
 }
