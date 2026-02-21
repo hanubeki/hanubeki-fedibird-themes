@@ -195,7 +195,7 @@ html {
 
 .compose-form .compose-form__datetime-wrapper .datetime__schedule .datetime-dropdown .datetime-dropdown__input-invalid,
 .compose-form .compose-form__datetime-wrapper .datetime__expire .datetime-dropdown .datetime-dropdown__input-invalid {
-    background-color: darken($error-value-color, 35%);
+  background-color: darken($error-value-color, 35%);
 }
 
 .compose-form .compose-form__datetime-wrapper select,
@@ -357,10 +357,6 @@ html {
 
 // Change the colors used in the account popup
 .account-popup {
-  &.dropdown-menu {
-    background: mix($white, darken($ui-base-color, 7%), 80%);
-  }
-
   &__display-name__html {
     color: $darker-text-color;
   }
@@ -426,11 +422,6 @@ html {
   &.invalid {
     background-color: darken($error-value-color, 35%);
   }
-}
-
-.actions-modal .status,
-.reaction-modal .status {
-  background: mix($white, darken($ui-base-color, 7%), 80%);
 }
 
 .reactions-bar__item {
@@ -941,12 +932,12 @@ button.icon-button {
 
 /* Dark-mode add-on */
 @media (prefers-color-scheme: dark) {
-    :root {
-        filter: invert(1) hue-rotate(180deg) contrast(0.8) brightness(1.1);
-        color-scheme: only light;
-    }
+  :root {
+    filter: url("data:image/svg+xml;utf8,<svg width='16' height='16' xmlns='http://www.w3.org/2000/svg'><filter id='invert' color-interpolation-filters='sRGB'><feColorMatrix in='SourceGraphic' type='matrix' values='0.333 -0.666 -0.666 0 1 -0.666 0.333 -0.666 0 1 -0.666 -0.666 0.333 0 1 0 0 0 1 0'/></filter></svg>#invert") contrast(0.8) brightness(1.1);
+    color-scheme: only light;
+  }
 
-    img, video, picture, canvas, iframe, embed, .account__avatar, .account__avatar-overlay-base, .account__avatar-overlay-overlay /*, [role="img"]*/ {
-        filter: invert(1) hue-rotate(180deg);
-    }
+  img, video, picture, canvas, iframe, embed, .account__avatar, .account__avatar-overlay-base, .account__avatar-overlay-overlay /*, [role="img"]*/ {
+    filter: brightness(calc(1 / 1.1)) contrast(1.25) url("data:image/svg+xml;utf8,<svg width='16' height='16' xmlns='http://www.w3.org/2000/svg'><filter id='invert' color-interpolation-filters='sRGB'><feColorMatrix in='SourceGraphic' type='matrix' values='0.333 -0.666 -0.666 0 1 -0.666 0.333 -0.666 0 1 -0.666 -0.666 0.333 0 1 0 0 0 1 0'/></filter></svg>#invert");
+  }
 }

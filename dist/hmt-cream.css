@@ -15934,10 +15934,10 @@ button.icon-button:disabled i.fa-retweet, button.icon-button:disabled:hover i.fa
 /* Dark-mode add-on */
 @media (prefers-color-scheme: dark) {
   :root {
-    filter: invert(1) hue-rotate(180deg) contrast(0.8) brightness(1.1);
+    filter: url("data:image/svg+xml;utf8,<svg width='16' height='16' xmlns='http://www.w3.org/2000/svg'><filter id='invert' color-interpolation-filters='sRGB'><feColorMatrix in='SourceGraphic' type='matrix' values='0.333 -0.666 -0.666 0 1 -0.666 0.333 -0.666 0 1 -0.666 -0.666 0.333 0 1 0 0 0 1 0'/></filter></svg>#invert") contrast(0.8) brightness(1.1);
     color-scheme: only light;
   }
   img, video, picture, canvas, iframe, embed, .account__avatar, .account__avatar-overlay-base, .account__avatar-overlay-overlay {
-    filter: invert(1) hue-rotate(180deg);
+    filter: brightness(0.9090909091) contrast(1.25) url("data:image/svg+xml;utf8,<svg width='16' height='16' xmlns='http://www.w3.org/2000/svg'><filter id='invert' color-interpolation-filters='sRGB'><feColorMatrix in='SourceGraphic' type='matrix' values='0.333 -0.666 -0.666 0 1 -0.666 0.333 -0.666 0 1 -0.666 -0.666 0.333 0 1 0 0 0 1 0'/></filter></svg>#invert");
   }
 }/*# sourceMappingURL=hmt-cream.css.map */
