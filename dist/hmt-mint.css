@@ -14959,6 +14959,32 @@ body.rtl .simple_form .beta_features.float {
   mask-image: url("data:image/svg+xml,%3Csvg%20id%3D%22nft-hexagon-mask%22%20data-name%3D%22nft-hexagon-mask%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Cpolygon%20points%3D%22300%2026.8%20100%2026.8%200%20200%20100%20373.2%20300%20373.2%20400%20200%20300%2026.8%22%2F%3E%3C%2Fsvg%3E");
 }
 
+.heart-avatar .account__avatar,
+.heart-avatar .account__avatar-overlay-base,
+.heart-avatar .account__avatar-overlay-overlay {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Cpath%20fill%3D%22black%22%20d%3D%22M200%20352C188%20342%2034%20230%2034%20120C34%2060%2078%2020%20132%2020C167%2020%20191%2042%20200%2055C209%2042%20233%2020%20268%2020C322%2020%20366%2060%20366%20120C366%20230%20212%20342%20200%20352Z%22%2F%3E%3C%2Fsvg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Cpath%20fill%3D%22black%22%20d%3D%22M200%20352C188%20342%2034%20230%2034%20120C34%2060%2078%2020%20132%2020C167%2020%20191%2042%20200%2055C209%2042%20233%2020%20268%2020C322%2020%20366%2060%20366%20120C366%20230%20212%20342%20200%20352Z%22%2F%3E%3C%2Fsvg%3E");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+.burst-avatar .account__avatar,
+.burst-avatar .account__avatar-overlay-base,
+.burst-avatar .account__avatar-overlay-overlay {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Cpath%20fill%3D%22black%22%20d%3D%22M200%2020%20224%2060%20264%2037%20274%2083%20318%2074%20311%20120%20356%20126%20333%20166%20374%20186%20337%20214%20368%20246%20324%20258%20342%20298%20296%20292%20299%20339%20256%20319%20243%20364%20206%20334%20180%20374%20154%20334%20117%20364%20104%20319%2061%20339%2064%20292%2018%20298%2036%20258%20-8%20246%2023%20214%20-14%20186%2027%20166%204%20126%2049%20120%2042%2074%2086%2083%2096%2037%20136%2060%20160%2020Z%22%2F%3E%3C%2Fsvg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20400%22%3E%3Cpath%20fill%3D%22black%22%20d%3D%22M200%2020%20224%2060%20264%2037%20274%2083%20318%2074%20311%20120%20356%20126%20333%20166%20374%20186%20337%20214%20368%20246%20324%20258%20342%20298%20296%20292%20299%20339%20256%20319%20243%20364%20206%20334%20180%20374%20154%20334%20117%20364%20104%20319%2061%20339%2064%20292%2018%20298%2036%20258%20-8%20246%2023%20214%20-14%20186%2027%20166%204%20126%2049%20120%2042%2074%2086%2083%2096%2037%20136%2060%20160%2020Z%22%2F%3E%3C%2Fsvg%3E");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
 .status__content__text pre,
 .status__content__text blockquote,
 .e-content pre,
@@ -15939,5 +15965,29 @@ button.icon-button:disabled i.fa-retweet, button.icon-button:disabled:hover i.fa
   }
   img, video, picture, canvas, iframe, embed, .account__avatar, .account__avatar-overlay-base, .account__avatar-overlay-overlay {
     filter: brightness(0.9090909091) contrast(1.25) url("data:image/svg+xml;utf8,<svg width='16' height='16' xmlns='http://www.w3.org/2000/svg'><filter id='invert' color-interpolation-filters='sRGB'><feColorMatrix in='SourceGraphic' type='matrix' values='0.333 -0.666 -0.666 0 1 -0.666 0.333 -0.666 0 1 -0.666 -0.666 0.333 0 1 0 0 0 1 0'/></filter></svg>#invert");
+  }
+  /*
+  :root {
+      --shadow: 0 10px 40px -10px rgb(100% 100% 100% / 0.15);
+      --shadow-low: -1 8px 16px -10px rgb(100% 100% 100% / 0.4);
+  }
+
+  ::selection {
+      background-color: Highlight;
+      color: black;  
+  }
+  */
+  .modal-root__container .icon-button, .status-card__image, .media-gallery, .video-player, .audio-player {
+    filter: brightness(0.9090909091) contrast(1.25) url("data:image/svg+xml;utf8,<svg width='16' height='16' xmlns='http://www.w3.org/2000/svg'><filter id='invert' color-interpolation-filters='sRGB'><feColorMatrix in='SourceGraphic' type='matrix' values='0.333 -0.666 -0.666 0 1 -0.666 0.333 -0.666 0 1 -0.666 -0.666 0.333 0 1 0 0 0 1 0'/></filter></svg>#invert");
+  }
+  .modal-root__container .icon-button *, .status-card__image *, .media-gallery *, .video-player *, .audio-player * {
+    filter: unset;
+  }
+  .modal-root__overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    filter: brightness(0.9090909091) contrast(1.25) url("data:image/svg+xml;utf8,<svg width='16' height='16' xmlns='http://www.w3.org/2000/svg'><filter id='invert' color-interpolation-filters='sRGB'><feColorMatrix in='SourceGraphic' type='matrix' values='0.333 -0.666 -0.666 0 1 -0.666 0.333 -0.666 0 1 -0.666 -0.666 0.333 0 1 0 0 0 1 0'/></filter></svg>#invert");
+  }
+  .floating-action-button {
+    box-shadow: 2px 3px 9px rgba(255, 255, 255, 0.4);
   }
 }/*# sourceMappingURL=hmt-mint.css.map */
