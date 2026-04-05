@@ -943,29 +943,29 @@ button.icon-button {
 
   /*
   :root {
-      --shadow: 0 10px 40px -10px rgb(100% 100% 100% / 0.15);
-      --shadow-low: -1 8px 16px -10px rgb(100% 100% 100% / 0.4);
+    --shadow: 0 10px 40px -10px rgb(100% 100% 100% / 0.15);
+    --shadow-low: -1 8px 16px -10px rgb(100% 100% 100% / 0.4);
   }
 
   ::selection {
-      background-color: Highlight;
-      color: black;  
+    background-color: Highlight;
+    color: black;  
   }
   */
 
   .modal-root__container .icon-button, .status-card__image, .media-gallery, .video-player, .audio-player {
-      filter: brightness(calc(1.0 / 1.1)) contrast(1.25) url("data:image/svg+xml;utf8,<svg width='16' height='16' xmlns='http://www.w3.org/2000/svg'><filter id='invert' color-interpolation-filters='sRGB'><feColorMatrix in='SourceGraphic' type='matrix' values='0.333 -0.666 -0.666 0 1 -0.666 0.333 -0.666 0 1 -0.666 -0.666 0.333 0 1 0 0 0 1 0'/></filter></svg>#invert");
-      * {
-          filter: unset;
-      }
+    filter: brightness(calc(1.0 / 1.1)) contrast(1.25) url("data:image/svg+xml;utf8,<svg width='16' height='16' xmlns='http://www.w3.org/2000/svg'><filter id='invert' color-interpolation-filters='sRGB'><feColorMatrix in='SourceGraphic' type='matrix' values='0.333 -0.666 -0.666 0 1 -0.666 0.333 -0.666 0 1 -0.666 -0.666 0.333 0 1 0 0 0 1 0'/></filter></svg>#invert");
+    * {
+      filter: unset;
+    }
   }
 
   .modal-root__overlay {
-      background-color: rgba(0, 0, 0, 0.7);
-      filter: brightness(calc(1.0 / 1.1)) contrast(1.25) url("data:image/svg+xml;utf8,<svg width='16' height='16' xmlns='http://www.w3.org/2000/svg'><filter id='invert' color-interpolation-filters='sRGB'><feColorMatrix in='SourceGraphic' type='matrix' values='0.333 -0.666 -0.666 0 1 -0.666 0.333 -0.666 0 1 -0.666 -0.666 0.333 0 1 0 0 0 1 0'/></filter></svg>#invert");
+    background-color: rgba(0, 0, 0, 0.7);
+    filter: brightness(calc(1.0 / 1.1)) contrast(1.25) url("data:image/svg+xml;utf8,<svg width='16' height='16' xmlns='http://www.w3.org/2000/svg'><filter id='invert' color-interpolation-filters='sRGB'><feColorMatrix in='SourceGraphic' type='matrix' values='0.333 -0.666 -0.666 0 1 -0.666 0.333 -0.666 0 1 -0.666 -0.666 0.333 0 1 0 0 0 1 0'/></filter></svg>#invert");
   }
 
   .floating-action-button {
-      box-shadow: 2px 3px 9px rgba(255, 255, 255, 0.4);
+    box-shadow: 2px 3px 9px rgba(255, 255, 255, 0.4);
   }
 }
