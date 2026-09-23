@@ -4540,13 +4540,10 @@ body > [data-popper-placement] {
   padding: 0;
   font-size: inherit;
   line-height: inherit;
+  cursor: pointer;
 }
-.status__wrapper--filtered__button:hover, .status__wrapper--filtered__button:active {
+.status__wrapper--filtered__button:hover, .status__wrapper--filtered__button:active, .status__wrapper--filtered__button:focus {
   text-decoration: underline;
-}
-
-.quote-inline {
-  display: none;
 }
 
 .quote-status {
@@ -4582,7 +4579,6 @@ body > [data-popper-placement] {
   height: 18px;
   width: 18px;
   position: absolute;
-  top: 5px !important;
   left: 5px !important;
   cursor: pointer;
 }
@@ -4590,6 +4586,12 @@ body > [data-popper-placement] {
 .quote-status .detailed-status__display-avatar > div {
   width: 18px;
   height: 18px;
+}
+.quote-status .status__avatar {
+  top: 5px !important;
+}
+.quote-status .detailed-status__display-avatar {
+  top: 7px !important;
 }
 .quote-status .display-name__account {
   color: #b8cac9;
@@ -13445,6 +13447,11 @@ noscript div a:hover {
 }
 .table--invites tbody td {
   vertical-align: middle;
+  text-decoration: none;
+}
+.table--invites tbody td.expired {
+  text-decoration: line-through;
+  color: rgb(162.4, 76.4, 82.4);
 }
 
 .table-wrapper {
