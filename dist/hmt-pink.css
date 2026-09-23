@@ -9056,6 +9056,117 @@ a.status-card.compact:hover {
   right: 10px;
 }
 
+.filter-modal {
+  background: rgb(62.6, 45.6, 54.6);
+  color: #3c2c35;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 90vw;
+  width: 480px;
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  max-height: 80vh;
+}
+.filter-modal .search__input {
+  background: #ffffff;
+  color: #3c2c35;
+}
+.filter-modal .search__input:focus {
+  background: #ffffff;
+}
+.filter-modal .search__icon .fa {
+  color: #53424b;
+}
+
+.filter-modal__container {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.filter-modal__target {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+}
+.filter-modal__target .media-modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.filter-modal__status {
+  padding: 0 20px 20px;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+.filter-modal__select-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+.filter-modal__select-filter {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 12px;
+  text-align: left;
+  color: #3c2c35;
+  font-size: 15px;
+}
+.filter-modal__select-filter:hover, .filter-modal__select-filter:focus {
+  background: #565899;
+  color: #3c2c35;
+}
+.filter-modal__select-filter:hover .filter-modal__warning, .filter-modal__select-filter:focus .filter-modal__warning {
+  color: #3c2c35;
+}
+.filter-modal__select-filter--create {
+  font-weight: 500;
+}
+
+.filter-modal__warning {
+  color: #c16b71;
+  font-size: 13px;
+}
+
+.filter-modal__added {
+  padding-top: 10px;
+}
+.filter-modal__added h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.filter-modal__added p {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 12px;
+}
+.filter-modal__added a {
+  color: #565899;
+  text-decoration: none;
+}
+.filter-modal__added a:hover {
+  text-decoration: underline;
+}
+
+.filter-modal__action-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
 .loading-bar {
   background-color: #565899;
   height: 3px;
@@ -15468,6 +15579,7 @@ html {
 .mute-modal,
 .block-modal,
 .report-modal,
+.filter-modal,
 .embed-modal,
 .error-modal,
 .onboarding-modal,
