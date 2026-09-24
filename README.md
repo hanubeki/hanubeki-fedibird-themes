@@ -1,6 +1,5 @@
-# Notice of discontinuation
-This theme will be discontinued after fedibird is upgraded from 3.4.1.
-Thanks to people using my themes in fedibird.
+# Notice
+Support for this theme will be paused until upgrading fedibird from 3.4.1 is finished.
 
 # hanubeki-fedibird-themes
 Experimental themes for [fedibird](https://fedibird.com/)
