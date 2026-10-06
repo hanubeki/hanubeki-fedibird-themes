@@ -4814,8 +4814,11 @@ body > [data-popper-placement] {
   margin-top: 6px;
 }
 .status__content a.status__content__hashtag-badge,
+.status__content button.status__content__hashtag-more,
 .reply-indicator__content a.status__content__hashtag-badge,
-.quote-indicator__content a.status__content__hashtag-badge {
+.reply-indicator__content button.status__content__hashtag-more,
+.quote-indicator__content a.status__content__hashtag-badge,
+.quote-indicator__content button.status__content__hashtag-more {
   display: inline-flex;
   align-items: center;
   box-sizing: border-box;
@@ -4827,6 +4830,11 @@ body > [data-popper-placement] {
   border-radius: 999px;
   background: rgb(224.6, 202.6, 177.6);
   color: #534432;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  font-family: inherit;
   font-size: calc(var(--content-font-size, 15px) * 0.87);
   font-weight: 400;
   line-height: 1.4;
@@ -4834,23 +4842,35 @@ body > [data-popper-placement] {
   overflow-wrap: anywhere;
 }
 .status__content a.status__content__hashtag-badge:hover, .status__content a.status__content__hashtag-badge:focus,
+.status__content button.status__content__hashtag-more:hover,
+.status__content button.status__content__hashtag-more:focus,
 .reply-indicator__content a.status__content__hashtag-badge:hover,
 .reply-indicator__content a.status__content__hashtag-badge:focus,
+.reply-indicator__content button.status__content__hashtag-more:hover,
+.reply-indicator__content button.status__content__hashtag-more:focus,
 .quote-indicator__content a.status__content__hashtag-badge:hover,
-.quote-indicator__content a.status__content__hashtag-badge:focus {
+.quote-indicator__content a.status__content__hashtag-badge:focus,
+.quote-indicator__content button.status__content__hashtag-more:hover,
+.quote-indicator__content button.status__content__hashtag-more:focus {
   color: #3c6da2;
   border-color: #3c6da2;
   background: rgba(60, 109, 162, 0.15);
   text-decoration: none;
 }
 .status__content a.status__content__hashtag-badge:focus,
+.status__content button.status__content__hashtag-more:focus,
 .reply-indicator__content a.status__content__hashtag-badge:focus,
-.quote-indicator__content a.status__content__hashtag-badge:focus {
+.reply-indicator__content button.status__content__hashtag-more:focus,
+.quote-indicator__content a.status__content__hashtag-badge:focus,
+.quote-indicator__content button.status__content__hashtag-more:focus {
   outline: 0;
 }
 .status__content a.status__content__hashtag-badge:focus-visible,
+.status__content button.status__content__hashtag-more:focus-visible,
 .reply-indicator__content a.status__content__hashtag-badge:focus-visible,
-.quote-indicator__content a.status__content__hashtag-badge:focus-visible {
+.reply-indicator__content button.status__content__hashtag-more:focus-visible,
+.quote-indicator__content a.status__content__hashtag-badge:focus-visible,
+.quote-indicator__content button.status__content__hashtag-more:focus-visible {
   color: #3c6da2;
   border-color: #3c6da2;
   outline: 2px solid #3c6da2;
