@@ -1,4 +1,12 @@
 # Notice
+
+## for Mastodon 5.0
+
+Support for the new design introducing in Mastodon 5.0 is not planned.
+The new design will able to choose from few theme colors and looks similar to concept of my themes.
+When Fedibird introduces the new design, my themes will be retired.
+
+## Fedibird is upgrading
 Support for this theme will be paused until upgrading fedibird from 3.4.1 is finished.
 
 # hanubeki-fedibird-themes
