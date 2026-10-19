@@ -1,7 +1,6 @@
 # Notice
 
 ## for Mastodon 5.0
-
 Support for the new design introducing in Mastodon 5.0 is not planned.
 The new design will able to choose from few theme colors and looks similar to concept of my themes.
 When Fedibird introduces the new design, my themes will be retired.
